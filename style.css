@@ -2,17 +2,15 @@
     margin: 0;
     padding: 0;
     overflow-x:hidden;
+    font-weight: 600;
 }
 .All{
     background: url("img/body-background.jpg") no-repeat;
     font-family: Montserrat;
-    background-size: cover;
-    height: 7198px;
 }
 a{
     text-decoration: none;
     color: white;
-
 }
 h2{
     font-size: 60px;
@@ -21,7 +19,6 @@ h2{
     margin: 0 auto;
     color: #2b2c54;
     font-weight: 600;
-
 }
 h3{
     font-size: 32px;
@@ -40,7 +37,6 @@ ul li{
     list-style-type: none;
 }
 .block-1{
-    height: 940px;
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
 }
@@ -52,14 +48,11 @@ ul li{
     width: 1680px;
     margin: 0 auto;
 }
-.block-1 .container .header ul{
-    display: flex;
-    justify-content: space-between;
-
-}
 .header ul{
     width: 900px;
-    padding: 35px 0px;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
 }
 .header button{
     color: #F6F4FE;
@@ -76,13 +69,12 @@ ul li{
     border-bottom: 5px solid;
     height: 52px;
     width: 172px;
-
 }
 .header button img{
     padding: 0px 5px 0 40px;
     margin: 0px 0 -3px 0px;
 }
-h1{
+h1 {
     text-align: center;
     padding: 0 240px;
     font-size: 60px;
@@ -122,7 +114,7 @@ h1{
     transition-duration: .3s
 }
 .info-list li:not(:first-child){
-    padding: 40px 0px 30px 0px;
+    padding: 40px 0px 30px;
 }
 .info-list li:hover{
     transition-duration: 0.3s;
@@ -130,7 +122,7 @@ h1{
     background: #7656f1;
 }
 .block-2{
-    margin: 85px 0 0 0;
+    margin: 285px 0 0 0;
     color: #2b2c54;
 }
 .our-programm{
@@ -198,7 +190,6 @@ h1{
 }
 .data input{
     border-radius: 40px;
-    border-color: #dfdfe5;
     border: 1px solid #dfdfe5;
     padding: 21px 200px 21px 20px;
     transition-duration: .3s;
@@ -268,14 +259,13 @@ form button{
 }
 .arrows a{
     padding: 10px 20px 10px 20px;
-    border: 1px solid;
     border-radius: 50%;
     color: #6743EF;
     background-color: white;
     border-top: 1px solid;
     border-right: 1px solid;
     border-left: 1px solid;
-    border-bottom: 5px solid;
+    border-bottom: 4px solid;
     border-color: #7656f1;
 }
 .block-6 h2{
@@ -285,7 +275,6 @@ form button{
 .block-6 p{
     font-size: 18px;
     color: #6b6b87;
-    width: 390px;
     margin: 0 auto;
     text-align: center;
     width: 860px;
@@ -374,7 +363,6 @@ form button{
 }
 .block-8 input{
     border-radius: 40px;
-    border-color: #dfdfe5;
     border: 1px solid #dfdfe5;
     padding: 21px 349px 21px 20px;
     transition-duration: .3s;
@@ -397,9 +385,6 @@ form button{
     height: 620px;
 
 }
-.footer .social{
-    display: flex;
-}
 .social{
     display: flex;
     justify-content: right;
@@ -421,7 +406,7 @@ form button{
 }
 .footer-info h4{
     color: white;
-    padding-bottom: 20px;
+    padding: 60px 0 30px 0;
 }
 .info-for-our{
     width: 428px;
