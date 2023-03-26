@@ -284,7 +284,7 @@ h1 {
 .footer{
     background: url("img/footer.png")no-repeat;
     height: 699px;
-    width: 1920px;
+    background-size: cover;
 }
 .social{
     display: flex;

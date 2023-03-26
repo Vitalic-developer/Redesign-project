@@ -64,128 +64,44 @@ li {
 
 h1 {
     text-align: center;
-    padding: 20px 250px 20px;
+    padding: 20px 0 20px;
     font-size: 60px;
-    background: url(img/G.svg) no-repeat 680px 17px;
     margin: 70px 0 0 0;
     color: #2b2c54;
     background-size: 340px;
 }
-
-.block-1 p{
-    color: #2B2C54;
-    opacity: 70%;
-    width: 1110px;
-    margin: 0 auto;
-    line-height: 30px;
-    padding: 0 0 0 120px;
-}
-.block-2{
-    margin: 50px 0 0 0;
-}
-.block-2 h3{
-    font-size: 32px;
-    padding-bottom: 16px;
-}
-.block-2 h4{
-    font-size: 24px;
-    padding-top: 10px;
-}
-.block-2 p{
-    padding-top: 62px;
-    opacity: 70%;
-    font-size: 18px;
-}
-.block-2 .container ul{
-    display: flex;
-    justify-content: space-between;
+.text{
     width: 1110px;
     margin: 0 auto;
 }
-.block-2 .container ul li{
-    padding: 30px 0 35px 30px;
-    width: 510px;
-    background: #FFFFFF;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1), 0 1px 15px rgba(248,248,249);
-
-    color: #2B2C54;
-    margin-bottom: 30px;
-
-}
-.block-2 .container ul li button{
-    background: #FFFFFF;
-    font-size: 20px;
-    padding: 12px 42px 12px 42px;
-    border-radius: 100px;
-    border-top: 1px solid;
-    border-right: 1px solid;
-    border-left: 1px solid;
-    border-bottom: 5px solid;
-    border-color: #7656f1;
-    color: #a38ef6;
-    letter-spacing: 1px;
-    margin-top: 20px;
-}
-.separation{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 30px 0 0;
-}
-.block-3{
-    color: #2B2C54;
-}
-.block-3 h2{
-    font-size: 60px;
-    text-align: center;
-    padding-top: 74px;
-    padding-bottom: 30px;
-}
-.block-3 h4{
-    text-align: center;
-    font-size: 16px;
-}
-.block-3 h5{
-    padding-top: 50px;
-    opacity: 70%;
-    font-size: 16px;
-}
-.payment{
-    width: 1110px;
-    margin: 0 auto;
-}
-.block-3 ul{
+.text ul{
     padding-top: 30px;
 }
-.block-3 ul li{
-    opacity: 70%;
+.text ul li{
     font-size: 18px;
-    font-weight: 400;
-    padding-bottom: 20px;
-    color: #2B2C54;
-}
-.payment p{
-    width: 968px;
     color: #2B2C54;
     opacity: 70%;
-    padding-top: 16px;
-    font-size: 18px;
-    font-weight: 400;
+    padding-bottom: 16px;
+    font-weight: 500;
 }
-
-
-
-
-
-
-
-
-
-
+.text p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #2B2C54;
+    opacity: 70%;
+}
+.text h3{
+    color: #2B2C54;
+    opacity: 70%;
+    padding-top: 30px;
+    padding-bottom: 16px;
+    font-weight: 700;
+}
 
 .footer {
     background: url("img/footer.png") no-repeat;
     background-size: cover;
-    margin: 63px 0 0 0;
+    margin: 108px 0 0 0;
     padding: 0 0 120px 0;
 }
 
@@ -219,6 +135,11 @@ h1 {
 
 .info-for-our {
     width: 428px;
+}
+.text h4{
+    color: #2B2C54;
+    opacity: 70%;
+    font-size: 16px;
 }
 
 

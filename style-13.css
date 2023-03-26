@@ -8,7 +8,6 @@
 body {
     overflow-x: hidden;
     font-family: Montserrat, sans-serif;
-    overflow-x: hidden;
 }
 
 a {
@@ -20,6 +19,20 @@ a {
     margin: 0 auto;
     overflow: hidden;
 }
+.block-results{
+    width: 1110px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+h3{
+    color: #686887;
+}
+p{
+    color: #7e7e96;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+}
 
 li {
     list-style-type: none;
@@ -28,7 +41,6 @@ li {
 .block-backgorund-1 {
     background: url("img/header-background.jpg") no-repeat 240px -15px;
     width: 1980px;
-    margin: 0 auto;
 }
 
 .header .container {
@@ -63,48 +75,49 @@ li {
 }
 
 h1 {
-    text-align: center;
-    padding: 20px 0 20px;
+    padding: 20px 0 45px;
     font-size: 60px;
-    margin: 70px 0 0 0;
     color: #2b2c54;
     background-size: 340px;
 }
-.text{
-    width: 1110px;
-    margin: 0 auto;
+.santa img{
+    padding-bottom: 55px;
 }
-.text ul{
-    padding-top: 30px;
+.santa p{
+    padding-top: 18px;
 }
-.text ul li{
-    font-size: 18px;
-    color: #2B2C54;
-    opacity: 70%;
-    padding-bottom: 16px;
-    font-weight: 500;
+.santa-1 p{
+    padding: 20px 0 35px;
 }
-.text p{
-    font-size: 18px;
-    font-weight: 500;
-    color: #2B2C54;
-    opacity: 70%;
+.santa-2, .santa-3{
+    margin-top: 50px;
 }
-.text h3{
-    color: #2B2C54;
-    opacity: 70%;
-    padding-top: 30px;
-    padding-bottom: 16px;
-    font-weight: 700;
+.santa-2 p, .santa-3 p{
+    padding-bottom: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer {
     background: url("img/footer.png") no-repeat;
     background-size: cover;
-    margin: 108px 0 0 0;
+    margin: 55px 0 0 0;
     padding: 0 0 120px 0;
 }
-
+.footer p{
+    color: white;
+}
 .social {
     display: flex;
     justify-content: right;
@@ -137,8 +150,8 @@ h1 {
     width: 428px;
 }
 .text h4{
-    color: #2B2C54;
-    opacity: 70%;
+    color: #6b6b87;
+    opacity: 80%;
     font-size: 16px;
 }
 

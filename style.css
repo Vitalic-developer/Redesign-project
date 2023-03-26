@@ -3,19 +3,20 @@
     padding: 0;
     overflow-x:hidden;
     font-weight: 600;
-}
-.All{
-    background: url("img/body-background.jpg") no-repeat;
     font-family: Montserrat;
 }
 a{
     text-decoration: none;
     color: white;
 }
+p{
+    color: #686887;
+    font-size: 18px;
+    font-weight: 500;
+}
 h2{
     font-size: 60px;
     text-align: center;
-    width: 820px;
     margin: 0 auto;
     color: #2b2c54;
     font-weight: 600;
@@ -35,6 +36,13 @@ h4{
 }
 ul li{
     list-style-type: none;
+}
+.block-backgorund-1{
+   background: url("img/1page-header.jpg")no-repeat -26px -5px;
+    width: 100%;
+}
+.block-backgorund-2{
+    background: url("img/block-background-2.jpg") no-repeat -77px 430px;
 }
 .block-1{
     color: #FFFFFF;
@@ -68,7 +76,7 @@ ul li{
     border-left: 1px solid;
     border-bottom: 5px solid;
     height: 52px;
-    width: 172px;
+
 }
 .header button img{
     padding: 0px 5px 0 40px;
@@ -76,10 +84,11 @@ ul li{
 }
 h1 {
     text-align: center;
-    padding: 0 240px;
+    padding: 0 330px;
     font-size: 60px;
-    background: url(img/G.svg) no-repeat 920px 10px;
+    background: url(img/G.svg) no-repeat 800px 0;
     margin: 160px 0 0 0;
+    background-size: 400px;
 }
 .info {
     text-align: center;
@@ -103,18 +112,18 @@ h1 {
     color: #777793;
     font-size: 20px;
     margin: 80px 0 0 0;
+    position: relative;
+    overflow: hidden;
+    flex-wrap: wrap;
 }
 .info-list li{
     width: 360px;
     text-align: center;
     padding: 30px 0px 30px 0px;
     background: white;
-    position: relative;
     font-weight: 600;
-    transition-duration: .3s
-}
-.info-list li:not(:first-child){
-    padding: 40px 0px 30px;
+    transition-duration: .3s;
+
 }
 .info-list li:hover{
     transition-duration: 0.3s;
@@ -153,7 +162,7 @@ h1 {
     letter-spacing: 3px;
 }
 .our-programm-2{
-    margin: 46px 0 0 0;
+    margin: 65px 0 0 0;
 }
 .our-programm-3 ul{
     margin: 50px 0 0 0;
@@ -173,8 +182,12 @@ h1 {
     transition-duration: .3s;
     background-color: #7656f1;
 }
+.our-programm-3-adapt{
+    display: none;
+}
 .block-3 h2{
     font-size: 42px;
+    width: 820px;
 }
 .block-3 p{
     font-size: 18px;
@@ -185,6 +198,7 @@ h1 {
 .data{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     width: 825px;
     margin: 40px auto 0;
 }
@@ -215,7 +229,6 @@ form button{
     margin: 30px 0 0 0;
 }
 .block-4{
-    height: 517px;
     margin: 143px 0 0 0;
 
 }
@@ -232,7 +245,6 @@ form button{
     margin: 35px 0 0 0;
 }
 .block-5 h2{
-   width: 865px;
     margin-bottom: 75px;
 
 }
@@ -241,8 +253,6 @@ form button{
     justify-content: space-between;
     text-align: center;
     height: 545px;
-
-
 }
 .teacher ul li h4{
     padding: 40px 0px 20px;
@@ -250,6 +260,14 @@ form button{
     height: 40px;
     background-color: white;
     box-shadow: 0px 1px 30px -18px rgb(0 0 0 / 50%)
+}
+.teacher ul li img{
+    filter: grayscale(100%);
+    transition-duration: .2s;
+}
+.teacher ul li img:hover{
+    filter: grayscale(0%);
+    transition-duration: .3s;
 }
 .arrows{
     display: flex;
@@ -269,7 +287,6 @@ form button{
     border-color: #7656f1;
 }
 .block-6 h2{
-    width: 860px;
     margin-top: 100px;
 }
 .block-6 p{
@@ -277,7 +294,6 @@ form button{
     color: #6b6b87;
     margin: 0 auto;
     text-align: center;
-    width: 860px;
     margin-top: 20px;
 }
 .block-6 .application{
@@ -337,7 +353,8 @@ form button{
 }
 .practice{
     padding: 45px 0 470px 180px;
-    background: url(img/bulb.svg)no-repeat 160px 45px;
+    background: url(img/bulb.svg)no-repeat 160px 45px,
+                url("img/re.png")no-repeat 735px 10px;
 }
 .practice h3{
     padding-top: 40px;
@@ -383,7 +400,6 @@ form button{
 }
 .block-9{
     height: 620px;
-
 }
 .social{
     display: flex;
@@ -393,6 +409,15 @@ form button{
 }
 .social li{
     padding: 0 10px;
+}
+.footer{
+    background: url("img/footer.png")no-repeat 0 10px;
+    padding: 85px 0 110px 0;
+}
+.footer p{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
 }
 .footer-info{
     color: white;
@@ -410,6 +435,10 @@ form button{
 }
 .info-for-our{
     width: 428px;
+}
+.footer img{
+    vertical-align: bottom;
+    padding: 0 10px 0 0;
 }
 
 

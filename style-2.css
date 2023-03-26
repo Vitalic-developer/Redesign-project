@@ -67,7 +67,7 @@ h1 {
     width: 540px;
 }
 .block-1 ul li p{
-    padding: 18px 260px 10px 0;
+    padding: 18px 240px 10px 0;
     line-height: 30px;
 }
 .block-1 h3{
@@ -149,7 +149,7 @@ h1 {
     padding-top: 10px;
     line-height: 30px;
     color: white;
-    width: 505px;
+    width: 525px;
     font-size: 16px;
 }
 .block-2 ul li button{
@@ -165,9 +165,6 @@ h1 {
     color: #F6F4FE;
     margin: 20px 0 0 0;
     font-family: 'Montserrat';
-}
-.block-3{
-
 }
 .block-3 h2{
     text-align: center;
@@ -339,7 +336,7 @@ h1 {
 .footer{
     background: url("img/footer.png")no-repeat;
     height: 699px;
-    width: 1920px;
+    background-size: cover;
 }
 .social{
     display: flex;

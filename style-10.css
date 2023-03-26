@@ -25,12 +25,6 @@ li {
     list-style-type: none;
 }
 
-.block-backgorund-1 {
-    background: url("img/header-background.jpg") no-repeat 240px -15px;
-    width: 1980px;
-    margin: 0 auto;
-}
-
 .header .container {
     display: flex;
     justify-content: space-between;
@@ -62,21 +56,60 @@ li {
     margin-bottom: -3px;
 }
 
-h1 {
-    text-align: center;
-    padding: 20px 0 20px;
-    font-size: 60px;
-    margin: 70px 0 0 0;
-    color: #2b2c54;
-    background-size: 340px;
+.block-1 .container {
+    display: flex;
+    justify-content: space-between;
+    color: #2B2C54;
 }
 
+h1 {
+    font-size: 60px;
+    background: url("img/G.svg") no-repeat 10px 10px;
+    padding: 0 20px 20px 0;
+}
 
+.contact {
+    padding: 42px 0 0 0;
+}
 
+.contact ul {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
 
+.contact ul li {
+    background: #FFFFFF;
+    width: 315px;
+    margin: 15px 30px 15px 10px;
+    box-shadow: 0 0 10px 5px rgb(242, 242, 245);
+}
+.contact ul:nth-of-type(1) li:nth-child(1){
+    background: url("img/contacts/map.svg")no-repeat 20px 20px;
+}
+.contact ul:nth-of-type(1) li:nth-child(2){
+    background: url("img/contacts/opening-hours.svg")no-repeat 20px 20px;
+}
 
+.contact ul:nth-of-type(2) li:nth-child(1){
+    background: url("img/contacts/message.svg")no-repeat 20px 20px;
+}
+.contact ul:nth-of-type(2) li:nth-child(2){
+    background: url("img/contacts/mobile.svg")no-repeat 20px 20px;
+}
 
+.contact h2 {
+    font-size: 16px;
+    padding: 90px 0 0 20px;
+    font-weight: 600;
 
+}
+.contact h3 {
+    font-size: 18px;
+    opacity: 70%;
+    padding: 10px 19px 15px 20px;
+    font-weight: 400;
+}
 
 
 .footer {
@@ -117,7 +150,8 @@ h1 {
 .info-for-our {
     width: 428px;
 }
-.text h4{
+
+.text h4 {
     color: #2B2C54;
     opacity: 70%;
     font-size: 16px;
