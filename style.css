@@ -241,6 +241,9 @@ form button{
     width: 540px;
     border: 1px solid gray;
 }
+.block-4{
+    height: 510px;
+}
 .block-5{
     margin: 35px 0 0 0;
 }
@@ -288,6 +291,7 @@ form button{
 }
 .block-6 h2{
     margin-top: 100px;
+    padding: 0 300px;
 }
 .block-6 p{
     font-size: 18px;
@@ -298,7 +302,7 @@ form button{
 }
 .block-6 .application{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 50px;
 
 }
 .block-6 .application button{
@@ -314,47 +318,49 @@ form button{
     color: #F6F4FE;
 }
 .block-7 h2{
-    margin-top: 115px;
-    background: url("img/G.svg")no-repeat 300px 0px;
+    margin-top: 145px;
+    background: url("img/G.svg")no-repeat 720px 0;
 }
 .block-7 ul{
     display: flex;
     justify-content: space-around;
     padding: 0 160px;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 .block-7 ul li{
     width: 398px;
     padding: 0 25px;
+    margin-top: 40px;
 }
 .block-7 h4{
     font-size: 24px;
     padding-top: 100px;
 }
-.block-7 ul:first-child li:nth-child(1){
+.block-7 ul li:nth-child(1){
     background: url("img/star.svg") no-repeat;
 }
-.block-7 ul:first-child li:nth-child(2){
+.block-7 ul li:nth-child(2){
     background: url("img/cap.svg") no-repeat;
 }
-.block-7 ul:first-child li:nth-child(3){
+.block-7 ul li:nth-child(3){
     background: url("img/book.svg") no-repeat;
 }
 
 
-.block-7 ul:last-child li:nth-child(1){
+.block-7 ul li:nth-child(4){
     background: url("img/calendar.svg") no-repeat;
 }
-.block-7 ul:last-child li:nth-child(2){
+.block-7 ul li:nth-child(5){
     background: url("img/social.svg") no-repeat;
 }
-.block-7 ul:last-child li:nth-child(3){
+.block-7 ul li:nth-child(6){
     background: url("img/devices.svg") no-repeat;
 }
 .practice{
     padding: 45px 0 470px 180px;
     background: url(img/bulb.svg)no-repeat 160px 45px,
-                url("img/re.png")no-repeat 735px 10px;
+                url("img/re.png")no-repeat 735px -20px;
 }
 .practice h3{
     padding-top: 40px;

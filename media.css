@@ -157,7 +157,11 @@
         background: url(img/G.svg)no-repeat 270px 5px;
     }
     .block-7 p{
-        padding: 0 90px;
+        padding: 0;
+    }
+    .block-7 ul{
+        padding: 0;
+        flex-wrap: wrap;
     }
 
 
