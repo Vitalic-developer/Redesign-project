@@ -37,9 +37,13 @@ h4{
 ul li{
     list-style-type: none;
 }
+.logo-adapt{
+    display: none;
+}
 .block-backgorund-1{
-   background: url("img/1page-header.jpg")no-repeat -26px -5px;
+   background: url("img/1page-header.jpg")no-repeat 5px -5px;
     width: 100%;
+    background-size: contain;
 }
 .block-backgorund-2{
     background: url("img/block-background-2.jpg") no-repeat -77px 430px;
@@ -110,20 +114,18 @@ h1 {
     display: flex;
     justify-content: space-around;
     color: #777793;
-    font-size: 20px;
     margin: 80px 0 0 0;
-    position: relative;
-    overflow: hidden;
     flex-wrap: wrap;
 }
 .info-list li{
-    width: 360px;
     text-align: center;
     padding: 30px 0px 30px 0px;
     background: white;
     font-weight: 600;
     transition-duration: .3s;
-
+}
+.info-list li p{
+    width: 360px;
 }
 .info-list li:hover{
     transition-duration: 0.3s;
@@ -139,12 +141,14 @@ h1 {
     justify-content: space-between;
 }
 .our-programm-1{
-
+    width: 354px;
+}
+.block-3{
+    margin: 97px 0 0 0;
 }
 .block-2 p{
     font-size: 18px;
     color: #6b6b87;
-    width: 390px;
 
 }
 .more-details button{
@@ -184,10 +188,17 @@ h1 {
 }
 .our-programm-3-adapt{
     display: none;
+    color: #6b6b87;
+    transition-duration: .3s
+}
+.our-programm-3-adapt ul li:hover{
+    color: white;
+    transition-duration: .3s;
+    background-color: #7656f1;
 }
 .block-3 h2{
     font-size: 42px;
-    width: 820px;
+    padding: 0 540px;
 }
 .block-3 p{
     font-size: 18px;
@@ -197,9 +208,8 @@ h1 {
 }
 .data{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    width: 825px;
     margin: 40px auto 0;
 }
 .data input{
@@ -207,6 +217,7 @@ h1 {
     border: 1px solid #dfdfe5;
     padding: 21px 200px 21px 20px;
     transition-duration: .3s;
+    margin: 0 15px;
 }
 .data input:hover{
     transition-duration: .3s;
@@ -319,11 +330,12 @@ form button{
 }
 .block-7 h2{
     margin-top: 145px;
-    background: url("img/G.svg")no-repeat 720px 0;
+    background: url("img/G.svg")no-repeat 730px 0;
+    background-size: 340px;
 }
 .block-7 ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     padding: 0 160px;
     margin-top: 50px;
     flex-wrap: wrap;
@@ -357,10 +369,14 @@ form button{
 .block-7 ul li:nth-child(6){
     background: url("img/devices.svg") no-repeat;
 }
-.practice{
-    padding: 45px 0 470px 180px;
-    background: url(img/bulb.svg)no-repeat 160px 45px,
-                url("img/re.png")no-repeat 735px -20px;
+.block-7 ul li:nth-child(7){
+    background: url(img/bulb.svg) no-repeat;
+}
+.block-7 ul li:nth-child(8){
+    width: 540px;
+}
+.block-7 ul li:nth-child(8) img{
+    width: 540px;
 }
 .practice h3{
     padding-top: 40px;
