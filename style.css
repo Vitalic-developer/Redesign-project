@@ -335,8 +335,7 @@ form button{
 }
 .block-7 ul{
     display: flex;
-    justify-content: start;
-    padding: 0 160px;
+    justify-content: space-between;
     margin-top: 50px;
     flex-wrap: wrap;
 }
@@ -374,6 +373,7 @@ form button{
 }
 .block-7 ul li:nth-child(8){
     width: 540px;
+    margin-right: 400px;
 }
 .block-7 ul li:nth-child(8) img{
     width: 540px;
@@ -384,18 +384,17 @@ form button{
 .practice p{
     width: 398px;
 }
-.block-8{
-    background: url("img/check.svg")no-repeat 500px 0;
-}
+
 .block-8 h2{
     font-size: 42px;
-    padding-top: 20px;
+    padding: 20px 0;
+    background: url("img/check.svg")no-repeat 400px 10px;
 }
 .block-8 p{
     text-align: center;
     font-size: 18px;
     color: #6b6b87;
-    padding: 20px 0 40px;
+    padding: 0 0 40px;
 }
 .block-8 form{
     text-align: center;
