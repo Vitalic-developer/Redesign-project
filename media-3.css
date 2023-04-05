@@ -39,10 +39,14 @@
     .education {
         margin: 10px 0 0 0;
     }
-    .education img {
-        width: 590px;
+    .education div img {
+        width: 500px;
         height: auto;
         padding: 30px 0 0 0;
+        margin: 0;
+    }
+    .education ul{
+        padding: 50px 0 0 100px;
     }
 
     .block-2 .this-program h2{
@@ -66,12 +70,6 @@
         background-size: 560px;
     }
 
-}
-@media all and (max-width: 1220px ) {
-    .block-2 {
-        background: url(img/artist.png) no-repeat 560px 1070px;
-        background-size: 560px;
-    }
 }
 @media all and (max-width: 960px) {
     .container {
@@ -97,13 +95,22 @@
     .block-1 h2{
         padding: 0 160px;
     }
+    .education div img{
+        width: 380px;
+    }
     .education ul {
         padding: 30px 0 0 0;
-        width: 390px;
+    }
+    .education ul h3{
+        font-size: 18px;
+    }
+    .education ul h4{
+        font-size: 16px;
     }
     .education ul li button{
         padding: 14px 30px 14px 29px;
         margin: 0;
+        font-size: 16px;
     }
 
     .block-2 .this-program h2{
@@ -147,6 +154,10 @@
         padding: 10px 160px 10px 0;
         margin: 0;
     }
+    .education div img {
+        width: 320px;
+    }
+
     .block-2{
         background: url(img/artist.png) no-repeat 410px 850px;
         background-size: 450px;
@@ -199,14 +210,10 @@
         padding: 0 0 0 10px;
     }
     .block-1{
-        padding: 0 0 740px;
         text-align: center;
     }
     .education {
         margin: 20px -90px 0 0;
-    }
-    .education ul{
-        padding: 0;
     }
     .education ul li{
         margin: 0;
@@ -224,6 +231,9 @@
     }
     .programm-learn ul {
         padding: 0;
+    }
+    .education div{
+        order: 1;
     }
 }
 @media all and (max-width: 500px) {

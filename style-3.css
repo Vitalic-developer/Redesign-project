@@ -70,15 +70,18 @@ h1 {
 .education{
     display: flex;
     justify-content: space-between;
-    margin: 10px 0 0 45px;
+    flex-wrap: wrap;
 }
-.education img{
-    margin: 35px 0 0 135px;
+.education div{
+
+}
+.education div img{
+    margin: 45px 0 0 105px;
 }
 .education ul{
-    padding: 117px 0 0 0px;
+    padding: 120px 560px 0 0;
     color: #2B2C54;
-    width: 390px;
+
 }
 .education ul li{
     margin-bottom: 30px;
@@ -89,6 +92,7 @@ h1 {
 .education h4{
     padding: 10px 0 0 0;
     opacity: 70%;
+    width: 330px;
 }
 .education h5{
     font-size: 16px;
