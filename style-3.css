@@ -20,6 +20,9 @@ a{
 li{
     list-style-type: none;
 }
+.logo-adapt{
+    display: none;
+}
 .block-backgorund-1{
     background: url("img/header-background.jpg")no-repeat 240px -15px;
 }
@@ -52,7 +55,7 @@ li{
 }
 h1 {
     text-align: center;
-    padding: 20px 250px 20px;
+    padding: 20px 0 20px;
     font-size: 60px;
     background: url(img/G.svg) no-repeat 240px;
     margin: 70px 0 0 0;
@@ -67,8 +70,10 @@ h1 {
 .education{
     display: flex;
     justify-content: space-between;
-    width: 1212px;
     margin: 10px 0 0 45px;
+}
+.education img{
+    margin: 35px 0 0 135px;
 }
 .education ul{
     padding: 117px 0 0 0px;

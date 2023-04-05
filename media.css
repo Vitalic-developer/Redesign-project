@@ -39,6 +39,9 @@
     .block-7 ul li:nth-child(8) {
         margin-right: 0;
     }
+    .block-8 h2{
+        background: url(img/check.svg)no-repeat 270px 10px;
+    }
 
 
 }
@@ -117,6 +120,14 @@
     }
     .block-7 ul li:nth-child(8) img {
         width: 385px;
+    }
+    .block-8 h2 {
+        background: url(img/check.svg)no-repeat 60px 10px;
+        padding: 20px 40px;
+    }
+    .footer-programms{
+        order: 1;
+        width: 245px;
     }
 }
 
@@ -216,6 +227,24 @@
     .block-7 ul li:nth-child(7){
         background-position: 50px 0;
     }
+    .block-8 h2 {
+        padding: 20px 40px;
+        font-size: 24px;
+        background: url(img/check.svg)no-repeat 70px 10px;
+        background-size: 62px;
+    }
+    .block-8 p{
+        padding: 0 120px 40px;
+    }
+    .block-8 input{
+        padding: 14px 137px 14px 20px;
+    }
+    .social{
+        padding: 0;
+    }
+    .info-for-our{
+        width: 388px;
+    }
 }
 
 @media all and (max-width: 768px) {
@@ -278,6 +307,16 @@
         background-size: 200px;
         padding: 30px 0 10px;
     }
+    .block-8 h2{
+        background: url(img/check.svg)no-repeat 50px 10px;
+        background-size: 62px;
+    }
+    .footer-menu{
+        order: 1;
+    }
+    .info-for-our div{
+        margin: 20px 0;
+    }
 
 }
 
@@ -311,6 +350,14 @@
     .block-7 ul li:nth-child(8) {
         margin-left: -20px;
     }
+    .block-8 h2{
+        background: none;
+    }
+    .block-8 p{
+        padding: 0 0 20px;
+    }
+
+
 
 
 

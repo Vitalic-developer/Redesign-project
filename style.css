@@ -426,13 +426,13 @@ form button{
     display: flex;
     justify-content: right;
     align-items: center;
-    padding: 88px 175px 0 0;
+    padding: 0 75px 0 0;
 }
 .social li{
     padding: 0 10px;
 }
 .footer{
-    background: url("img/footer.png")no-repeat 0 10px;
+    background: #595ba9;
     padding: 85px 0 110px 0;
 }
 .footer p{
@@ -445,14 +445,16 @@ form button{
     font-size: 18px;
     display: flex;
     justify-content: space-between;
-    margin: 23px 0 0 0;
+    flex-wrap: wrap;
+    margin: 60px 0 0 0;
 }
 .footer-info p{
     padding: 0 0 20px 0;
+    font-weight: 400;
 }
 .footer-info h4{
     color: white;
-    padding: 60px 0 30px 0;
+    padding: 0 0 30px 0;
 }
 .info-for-our{
     width: 428px;

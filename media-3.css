@@ -9,9 +9,7 @@
     .education{
         margin: 10px 200px 0 45px;
     }
-    .block-1 {
-        background: url(img/student.png)no-repeat 260px 250px;
-    }
+
     .education ul{
         padding: 50px 0 0 0;
     }
@@ -46,10 +44,7 @@
         height: auto;
         padding: 30px 0 0 0;
     }
-    .block-1 {
-        background: url(img/student.png)no-repeat 100px 300px;
-        background-size: 450px;
-    }
+
     .block-2 .this-program h2{
         background: url(img/karakul.svg)no-repeat 240px 160px;
     }
@@ -87,7 +82,7 @@
         padding: 0 0 0 50px;
     }
     .logo-adapt img {
-        width: 220px;
+        width: 120px;
     }
 
     .header {
@@ -110,10 +105,7 @@
         padding: 14px 30px 14px 29px;
         margin: 0;
     }
-    .block-1 {
-        background: url(img/student.png)no-repeat -60px 150px;
-        background-size: 400px;
-    }
+
     .block-2 .this-program h2{
         font-size: 32px;
         background: url(img/karakul.svg)no-repeat 130px 60px;
@@ -141,10 +133,7 @@
         background: url(img/G.svg) no-repeat 60px 0;
         background-size: 200px;
     }
-    .block-1 {
-        background: url(img/student.png)no-repeat -60px 180px;
-        background-size: 400px;
-    }
+
     .block-1 h2 {
         padding: 20px 30px;
     }
@@ -210,8 +199,6 @@
         padding: 0 0 0 10px;
     }
     .block-1{
-        background: url(img/student.png)no-repeat 0 700px;
-        background-size: contain;
         padding: 0 0 740px;
         text-align: center;
     }

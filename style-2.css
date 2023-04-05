@@ -20,6 +20,9 @@ a{
 ul li{
     list-style-type: none;
 }
+.logo-adapt{
+    display: none;
+}
 .header .container{
     display: flex;
     justify-content: space-between;
@@ -120,37 +123,40 @@ h1 {
     margin: 0 auto;
     text-align: center;
     font-size: 18px;
-    width: 826px;
     font-weight: 500;
+    padding: 0 370px;
 }
 .block-2 ul{
     display: flex;
     justify-content: space-between;
 }
 .block-2 ul li{
-    padding: 240px 0 70px 50px;
-    margin-top: 50px;
-    width: 826px;
+    padding: 206px 250px 25px 50px;
+
 }
 .block-2 ul li:nth-child(1){
     background: url("img/forJun 1.jpg") no-repeat;
+    background-size: cover;
+    margin: 50px 15px 0 0;
 }
 .block-2 ul li:nth-child(2){
     background: url("img/forJun 2.jpg") no-repeat;
+    background-size: cover;
+    margin: 50px 0 0 15px;
 }
 .block-2 h5 {
     font-size: 18px;
 }
 .block-2 h3 {
     font-size: 42px;
-    padding: 10px 0 0 0;
+    padding: 12px 0 12px 0;
 }
 .block-2 ul li p {
     padding-top: 10px;
-    line-height: 30px;
+    line-height: 22px;
     color: white;
-    width: 525px;
     font-size: 16px;
+    font-weight: 400;
 }
 .block-2 ul li button{
     background: #a38ef6;
@@ -211,20 +217,19 @@ h1 {
     border-color: #7656f1;
 }
 .block-4 h2{
-    margin: 100px auto 0;
+    padding: 100px 290px 0;
+    margin: 0 auto;
     text-align: center;
-    width: 860px;
     font-size: 60px;
     color: #2b2c54;
     font-weight: 600;
 }
 .block-4 p{
+    padding: 0 430px;
     font-size: 18px;
     color: #6b6b87;
     margin: 0 auto;
     text-align: center;
-    width: 860px;
-    margin-top: 20px;
 }
 .block-4 .application{
     text-align: center;
@@ -248,45 +253,53 @@ h1 {
     color: #2b2c54;
     font-weight: 600;
     margin-top: 115px;
-    background: url(img/G.svg)no-repeat 750px 5px;
+    background: url(img/G.svg)no-repeat 750px 25px;
+    padding: 20px 0;
 }
-.block-5 ul {
+.block-5 ul{
     display: flex;
-    justify-content: space-around;
-    padding: 0 160px;
+    justify-content: space-between;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 .block-5 ul li{
     width: 398px;
     padding: 0 25px;
+    margin-top: 40px;
 }
 .block-5 h4{
     font-size: 24px;
     padding-top: 100px;
 }
-.block-5 ul:first-child li:nth-child(1){
+.block-5 ul li:nth-child(1){
     background: url("img/star.svg") no-repeat;
 }
-.block-5 ul:first-child li:nth-child(2){
+.block-5 ul li:nth-child(2){
     background: url("img/cap.svg") no-repeat;
 }
-.block-5 ul:first-child li:nth-child(3){
+.block-5 ul li:nth-child(3){
     background: url("img/book.svg") no-repeat;
 }
 
 
-.block-5 ul:last-child li:nth-child(1){
+.block-5 ul li:nth-child(4){
     background: url("img/calendar.svg") no-repeat;
 }
-.block-5 ul:last-child li:nth-child(2){
+.block-5 ul li:nth-child(5){
     background: url("img/social.svg") no-repeat;
 }
-.block-5 ul:last-child li:nth-child(3){
+.block-5 ul li:nth-child(6){
     background: url("img/devices.svg") no-repeat;
 }
-.practice{
-    padding: 95px 0 0 180px;
-    background: url(img/bulb.svg)no-repeat 160px 45px;
+.block-5 ul li:nth-child(7){
+    background: url(img/bulb.svg) no-repeat;
+}
+.block-5 ul li:nth-child(8){
+    width: 540px;
+    margin-right: 400px;
+}
+.block-5 ul li:nth-child(8) img{
+    width: 540px;
 }
 .practice h3{
     padding-top: 40px;
@@ -294,13 +307,10 @@ h1 {
 .practice p{
     width: 398px;
 }
-.block-6{
-    margin: 143px 0 0 0;
-}
+
 .block-6 h2{
     font-size: 60px;
     text-align: center;
-    width: 820px;
     margin: 0 auto;
     color: #2b2c54;
     font-weight: 600;
@@ -333,38 +343,46 @@ h1 {
     border-color: #7656f1;
     margin: 20px 0 0 0;
 }
-.footer{
-    background: url("img/footer.png")no-repeat;
-    height: 699px;
-    background-size: cover;
-}
 .social{
     display: flex;
     justify-content: right;
     align-items: center;
-    padding: 165px 175px 0 0;
+    padding: 0 75px 0 0;
 }
 .social li{
-    padding:0 10px;
+    padding: 0 10px;
+}
+.footer{
+    background: #595ba9;
+    padding: 85px 0 110px 0;
+}
+.footer p{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
 }
 .footer-info{
     color: white;
     font-size: 18px;
     display: flex;
     justify-content: space-between;
-    margin: 23px 0 0 0;
+    flex-wrap: wrap;
+    margin: 60px 0 0 0;
 }
 .footer-info p{
     padding: 0 0 20px 0;
+    font-weight: 400;
 }
 .footer-info h4{
     color: white;
-    padding: 40px 0 30px 0;
+    padding: 0 0 30px 0;
 }
 .info-for-our{
     width: 428px;
 }
-
-
+.footer img{
+    vertical-align: bottom;
+    padding: 0 10px 0 0;
+}
 
 
