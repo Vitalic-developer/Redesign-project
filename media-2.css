@@ -20,9 +20,6 @@
         margin: 0 20px 20px;
     }
 
-    .block-1 ul li:nth-child(3) {
-        margin-top: 15px;
-    }
 
     .block-2 h2 {
         background: url(img/G.svg) no-repeat 715px 20px;
@@ -44,9 +41,7 @@
         padding: 60px 160px;
     }
     .block-5 h2{
-        background: url(img/G.svg)no-repeat 640px 20px;
-        font-size: 32px;
-        background-size: 180px;
+        background: url(img/G.svg)no-repeat 645px 20px;
     }
     .block-5 ul{
         padding: 0;
@@ -72,6 +67,9 @@
     .header button{
         font-size: 16px;
     }
+    header ul{
+        padding: 35px 5px;
+    }
 
     .block-1 ul {
         padding: 22px 0 0 50px;
@@ -79,8 +77,8 @@
 
     .block-1 ul li {
         width: 334px;
-        padding: 100px 20px 50px 50px;
-        margin: 0 0 20px;
+        padding: 60px 20px 50px 50px;
+        margin: 0 10px 25px;
     }
 
     .block-1 ul li p {
@@ -165,10 +163,10 @@
     }
     .block-5 h2 {
         background: url(img/G.svg)no-repeat 420px 10px;
-        background-size: 180px;
         padding: 10px 0;
         margin-top: 60px;
     }
+
     .block-5 ul li:nth-child(8) {
         width: 430px;
     }
@@ -224,8 +222,7 @@
     }
 
     .block-1 ul li {
-        padding: 100px 0 20px 50px;
-        margin: 0;
+        padding: 70px 0 40px 50px;
         width: 290px;
     }
 
@@ -257,8 +254,9 @@
     .block-4 p{
         padding: 0 110px;
     }
-    .block-5 h2 {
+    .block-5 h2{
         background: url(img/G.svg)no-repeat 330px 10px;
+        font-size: 32px;
         background-size: 180px;
     }
     .block-5 ul li {
@@ -273,6 +271,9 @@
     }
     .block-5 ul{
         justify-content: space-around;
+    }
+    .block-6 h2{
+        font-size: 32px;
     }
     .social{
         padding: 20px 0 0 0;
@@ -312,7 +313,7 @@
 
     .block-1 ul li button {
         padding: 14px 30px;
-        margin: 0 0 20px 0;
+        margin: 0;
     }
 
     .block-2 h2 {
@@ -346,9 +347,9 @@
     }
     .block-5 h2 {
         font-size: 32px;
-        padding: 10px 100px;
+        padding: 10px 90px;
         margin-top: 30px;
-        background: url(img/G.svg) no-repeat 190px 10px;
+        background: url(img/G.svg) no-repeat 230px 10px;
         background-size: 180px;
     }
     .block-5 ul{
@@ -411,7 +412,7 @@
     }
     .block-5 h2 {
         padding: 0;
-        background: url(img/G.svg) no-repeat 140px 5px;
+        background: url(img/G.svg) no-repeat 160px 0;
         background-size: 180px;
     }
     .footer{

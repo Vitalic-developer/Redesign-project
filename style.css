@@ -1,9 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    overflow-x:hidden;
     font-weight: 600;
     font-family: Montserrat;
+    box-sizing: border-box;
+}
+body{
+    overflow-x:hidden;
 }
 a{
     text-decoration: none;
@@ -46,7 +49,7 @@ ul li{
     background-size: contain;
 }
 .block-backgorund-2{
-    background: url("img/block-background-2.jpg") no-repeat -77px 430px;
+    background: url("img/block-background-2.jpg") no-repeat -82px -400px;
 }
 .block-1{
     color: #FFFFFF;
@@ -334,6 +337,8 @@ form button{
     background-size: 340px;
 }
 .block-7 ul{
+    max-width: 1260px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
@@ -373,7 +378,6 @@ form button{
 }
 .block-7 ul li:nth-child(8){
     width: 540px;
-    margin-right: 400px;
 }
 .block-7 ul li:nth-child(8) img{
     width: 540px;

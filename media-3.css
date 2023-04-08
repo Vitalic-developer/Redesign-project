@@ -11,7 +11,7 @@
     }
 
     .education ul{
-        padding: 50px 0 0 0;
+
     }
     .block-2 .this-program h2{
         background: url(img/karakul.svg)no-repeat 440px 100px;
@@ -21,10 +21,7 @@
         padding: 75px 700px 280px 155px;
         margin: 0;
     }
-    .block-2 {
-        background: url(img/artist.png) no-repeat 820px 960px;
-        background-size: 560px;
-    }
+
 
 }
 
@@ -46,7 +43,7 @@
         margin: 0;
     }
     .education ul{
-        padding: 50px 0 0 100px;
+        margin: 50px 0 0 75px;
     }
 
     .block-2 .this-program h2{
@@ -65,10 +62,7 @@
     .programm-learn ul{
         padding: 0 500px 0 0;
     }
-    .block-2 {
-        background: url(img/artist.png) no-repeat 680px 1070px;
-        background-size: 560px;
-    }
+
 
 }
 @media all and (max-width: 960px) {
@@ -117,10 +111,7 @@
         font-size: 32px;
         background: url(img/karakul.svg)no-repeat 130px 60px;
     }
-    .block-2 {
-        background: url(img/artist.png) no-repeat 420px 1000px;
-        background-size: 450px;
-    }
+
     .programm-learn{
         padding: 75px 0 280px 20px;
     }
@@ -151,17 +142,14 @@
         padding: 0;
     }
     .education ul li{
-        padding: 10px 160px 10px 0;
+        padding: 10px 0 10px 0;
         margin: 0;
     }
     .education div img {
         width: 320px;
     }
 
-    .block-2{
-        background: url(img/artist.png) no-repeat 410px 850px;
-        background-size: 450px;
-    }
+
     .block-2 .this-program h2{
         background: url(img/karakul.svg)no-repeat 70px 100px;
         background-size: 350px;
@@ -218,10 +206,7 @@
     .education ul li{
         margin: 0;
     }
-    .block-2{
-        background: url(img/artist.png) no-repeat -10px 1700px;
-        background-size: contain;
-    }
+
     .block-2 .this-program h2{
         background: url(img/karakul.svg)no-repeat 10px 100px;
         background-size: 350px;
