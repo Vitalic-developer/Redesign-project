@@ -8,7 +8,6 @@
 body {
     overflow-x: hidden;
     font-family: Montserrat, sans-serif;
-    overflow-x: hidden;
 }
 
 a {
@@ -25,7 +24,7 @@ li {
     list-style-type: none;
 }
 
-.block-backgorund-1 {
+.block-background-1 {
     background: url("img/header-background.jpg") no-repeat 240px -15px;
     width: 1980px;
     margin: 0 auto;

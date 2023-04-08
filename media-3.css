@@ -1,236 +1,56 @@
-@media all and (max-width: 1660px ) {
+@media all and (max-width: 1680px ) {
     .container {
         width: 1400px;
     }
     h1{
-        background: url(img/G.svg) no-repeat 170px;
-        background-size: 380px;
+        background: url(img/G.svg)no-repeat 150px 100px;
+        background-size: 400px;
     }
-    .education{
-        margin: 10px 200px 0 45px;
-    }
-
-    .education ul{
-
-    }
-    .block-2 .this-program h2{
-        background: url(img/karakul.svg)no-repeat 440px 100px;
-    }
-    .programm-learn{
-        background-size: 750px;
-        padding: 75px 700px 280px 155px;
-        margin: 0;
-    }
-
-
 }
 
 @media all and (max-width: 1400px ) {
     .container {
-        width: 950px;
+        width: 1000px;
     }
     h1{
-        background: url(img/G.svg) no-repeat 110px 20px;
-        background-size: 380px;
-    }
-    .education {
-        margin: 10px 0 0 0;
-    }
-    .education div img {
-        width: 500px;
-        height: auto;
-        padding: 30px 0 0 0;
-        margin: 0;
-    }
-    .education ul{
-        margin: 50px 0 0 75px;
-    }
-
-    .block-2 .this-program h2{
-        background: url(img/karakul.svg)no-repeat 240px 160px;
-    }
-    .block-2 .this-program ul li {
-        width: 310px;
-        padding: 95px 0 55px 0;
-    }
-    .programm-learn{
-        padding: 75px 0 280px 0;
-    }
-    .programm-learn h2{
         font-size: 32px;
+        background: url(img/G.svg)no-repeat 200px 100px;
+        background-size: 230px;
     }
-    .programm-learn ul{
-        padding: 0 500px 0 0;
-    }
-
-
 }
-@media all and (max-width: 960px) {
+
+@media all and (max-width: 1000px ) {
     .container {
-        width: 768px;
+        width: 750px;
     }
-    .logo-adapt {
-        display: block;
-        padding: 0 0 0 50px;
-    }
-    .logo-adapt img {
-        width: 120px;
-    }
+
 
     .header {
         display: none;
     }
-    h1{
-        font-size: 32px;
-        background: url(img/G.svg) no-repeat 100px;
-        background-size: 220px;
-        margin: 10px 0 0 0;
-    }
-    .block-1 h2{
-        padding: 0 160px;
-    }
-    .education div img{
-        width: 380px;
-    }
-    .education ul {
-        padding: 30px 0 0 0;
-    }
-    .education ul h3{
-        font-size: 18px;
-    }
-    .education ul h4{
-        font-size: 16px;
-    }
-    .education ul li button{
-        padding: 14px 30px 14px 29px;
-        margin: 0;
-        font-size: 16px;
-    }
 
-    .block-2 .this-program h2{
-        font-size: 32px;
-        background: url(img/karakul.svg)no-repeat 130px 60px;
-    }
-
-    .programm-learn{
-        padding: 75px 0 280px 20px;
-    }
-    .programm-learn ul{
-        padding: 0 400px 0 0;
-    }
-
-
-}
-
-@media all and (max-width: 768px) {
-    .container {
-        width: 680px;
-    }
-    h1{
-        padding: 0 30px;
-        background: url(img/G.svg) no-repeat 60px 0;
-        background-size: 200px;
-    }
-
-    .block-1 h2 {
-        padding: 20px 30px;
-    }
-    .education {
-        margin: 10px -170px 0 0;
-    }
-    .education ul{
-        padding: 0;
-    }
-    .education ul li{
-        padding: 10px 0 10px 0;
-        margin: 0;
-    }
-    .education div img {
-        width: 320px;
-    }
-
-
-    .block-2 .this-program h2{
-        background: url(img/karakul.svg)no-repeat 70px 100px;
-        background-size: 350px;
-    }
-    .block-2 .this-program ul{
-        text-align: center;
-    }
-    .block-2 .this-program ul li {
-        width: 340px;
-        padding: 95px 0 5px 0;
-    }
-    .block-2 .this-program ul li:nth-child(1) {
-        background: url(img/star.svg)no-repeat 100px 5px;
-    }
-    .block-2 .this-program ul li:nth-child(2) {
-        background: url(img/cap.svg)no-repeat 100px 5px;
-    }
-    .block-2 .this-program ul li:nth-child(3) {
-        background: url(img/bulb.svg)no-repeat 100px 5px;
-    }
-    .block-2 .this-program ul li:nth-child(4) {
-        background: url(img/pan.svg)no-repeat 130px 5px;
-    }
-    .programm-learn{
-        padding: 75px 0 280px 0;
-    }
-    .programm-learn ul {
-        padding: 0 250px 0 0;
-    }
-
-}
-
-@media all and (max-width: 690px) {
-    .container {
-        width: 360px;
-    }
-    h1{
-        padding: 0 20px;
-        background: url(img/G.svg) no-repeat 80px 0;
-        background-size: 200px;
-    }
-    .block-1 h2 {
-        padding: 10px 30px 0;
-    }
     .logo-adapt {
-        padding: 0 0 0 10px;
+        display: block;
     }
-    .block-1{
-        text-align: center;
+    h1 {
+        background: url(img/G.svg)no-repeat 80px 100px;
+        background-size: 230px;
     }
-    .education {
-        margin: 20px -90px 0 0;
-    }
-    .education ul li{
-        margin: 0;
-    }
+}
 
-    .block-2 .this-program h2{
-        background: url(img/karakul.svg)no-repeat 10px 100px;
-        background-size: 350px;
+@media all and (max-width: 750px) {
+    .container {
+        width: 500px;
     }
-    .programm-learn{
-        padding: 75px 0 550px 10px;
-    }
-    .programm-learn ul {
-        padding: 0;
-    }
-    .education div{
-        order: 1;
+    h1 {
+        background: url(img/G.svg)no-repeat 70px 70px;
+        background-size: 230px;
+        padding: 70px 10px 20px;
     }
 }
 @media all and (max-width: 500px) {
-    .block-1{
-        padding: 0 0 560px;
-    }
-    .block-2 .this-program h2 {
-        margin: 0;
+    .container {
+        width: 360px;
     }
 }
-@media all and (max-width: 370px) {
-    .block-1{
-        padding: 0 0 430px;
-    }
-}
+
