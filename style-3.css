@@ -1,47 +1,31 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-weight: 600;
-}
-body{
-    font-family: Montserrat, sans-serif;
-    overflow-x: hidden;
 
-}
-a{
-    text-decoration: none;
-}
-.container{
-    width: 1680px;
-    margin: 0 auto;
-}
-li{
-    list-style-type: none;
-}
-.logo-adapt{
+.logo-adapt {
     display: none;
 }
-.block-backgorund-1{
-    background: url("img/header-background.jpg")no-repeat 240px -15px;
+
+.block-backgorund-1 {
+    background: url("img/header-background.jpg") no-repeat 240px -15px;
 }
-.header .container{
+
+.header .container {
     display: flex;
     justify-content: space-between;
 }
-.header ul{
+
+.header ul {
     width: 900px;
     padding: 35px 10px;
     display: flex;
     justify-content: space-between;
 }
-.header button{
+
+.header button {
     color: #6743ef;
     background: rgb(246, 244, 254, 0.1);
     border-radius: 100px;
     margin: 19px 0 0 0;
-    border-color: rgb(247,245,254);
-    font-size:20px;
+    border-color: rgb(247, 245, 254);
+    font-size: 20px;
     border-top: 1px solid;
     border-right: 1px solid;
     border-left: 1px solid;
@@ -49,69 +33,175 @@ li{
     height: 52px;
     width: 172px;
 }
-.header button img{
+
+.header button img {
     margin-bottom: -3px;
 }
-.logo-adapt{
+
+.logo-adapt {
     display: none;
 }
-h1{
+
+h1 {
     font-size: 60px;
-    color: #2B2C54;
     text-align: center;
     padding-bottom: 20px;
     padding-top: 104px;
-    background: url(img/G.svg)no-repeat 300px 100px;
+    background: url(img/G.svg) no-repeat 300px 100px;
     background-size: 400px;
 }
-.block-1 h2{
+
+.block-1 h2 {
     text-align: center;
     color: #2B2C54;
     font-size: 16px;
 }
-.study-start{
+
+.study-start {
     display: flex;
     justify-content: start;
-    margin-left: 45px;
+    flex-wrap: wrap;
+    margin-left: 105px;
     margin-top: 50px;
 }
-.study-start ul{
+
+.study-start ul {
     margin-top: 86px;
     margin-left: 165px;
-    width: 390px;
+    width: 320px;
     color: #2B2C54;
 }
-.study-start ul li h3{
+
+.study-start ul li {
+    margin-bottom: 30px;
+}
+
+.study-start ul li h3 {
     font-size: 24px;
     margin-bottom: 10px;
 }
-.study-start ul li p{
-    color: #686887;
+
+.study-start ul li h4 {
+    margin-bottom: 10px;
+}
+
+.study-start ul li p {
+
+}
+
+.study-start ul li button {
+    background: #a38ef6;
+    font-size: 20px;
+    padding: 20px 40px;
+    border-radius: 100px;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-bottom: 5px solid;
+    border-color: #7656f1;
+    color: #F6F4FE;
+}
+
+.block-2 {
+    margin-top: 120px;
+}
+
+.block-2 h2 {
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 150px;
+    background: url("img/karakul.svg") no-repeat 600px 80px;
+}
+
+.block-2 ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.block-2 ul li {
+    width: 338px;
+    padding-top: 95px;
+    margin-bottom: 30px;
+}
+
+.block-2 ul li:nth-child(1) {
+    background: url("img/star.svg") no-repeat -30px 0;
+}
+
+.block-2 ul li:nth-child(2) {
+    background: url("img/cap.svg") no-repeat -30px 0;
+}
+
+.block-2 ul li:nth-child(3) {
+    background: url("img/bulb.svg") no-repeat -30px 0;
+}
+
+.block-2 ul li:nth-child(4) {
+    background: url("img/pan.svg") no-repeat 0 0;
 }
 
 
+.block-3 {
+    margin-top: 125px;
+}
+
+.what-will-you-learn {
+    width: 767px;
+    margin-left: 148px;
+}
+
+.learn-adapt {
+    display: none;
+}
+
+.learn {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
 
+.learn h2 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.learn p {
+    font-size: 18px;
+    color: #2B2C54;
+    margin-bottom: 30px;
+}
+
+.learn ul li {
+    font-size: 18px;
+    color: #2B2C54;
+    margin-bottom: 16px;
+}
 
 
-.social{
+.social {
     display: flex;
     justify-content: right;
     align-items: center;
 }
-.social li{
+
+.social li {
     padding: 0 5px;
 }
-.footer{
+
+.footer {
     background: #595ba9;
     padding: 85px 0 110px 0;
 }
-.footer p{
+
+.footer p {
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 500;
 }
-.footer-info{
+
+.footer-info {
     color: white;
     font-size: 18px;
     display: flex;
@@ -119,18 +209,22 @@ h1{
     flex-wrap: wrap;
     margin: 60px 20px 0 20px;
 }
-.footer-info p{
+
+.footer-info p {
     padding: 0 0 20px 0;
     font-weight: 400;
 }
-.footer-info h4{
+
+.footer-info h4 {
     color: white;
     padding: 0 0 30px 0;
 }
-.info-for-our{
+
+.info-for-our {
     width: 428px;
 }
-.footer img{
+
+.footer img {
     vertical-align: bottom;
     padding: 0 10px 0 0;
 }
