@@ -322,7 +322,7 @@
 
 @media all and (max-width: 600px) {
     .container {
-        width: 360px;
+        width: 350px;
     }
 
     h1 {

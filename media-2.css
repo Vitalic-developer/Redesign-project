@@ -368,7 +368,7 @@
 }
 @media all and (max-width: 690px) {
     .container {
-        width: 360px;
+        width: 350px;
     }
 
     h1 {

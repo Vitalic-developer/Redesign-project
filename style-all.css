@@ -19,6 +19,9 @@ a{
 li{
     list-style-type: none;
 }
+h2{
+    font-size: 60px;
+}
 h1, h2, h3, h4,h5{
     font-weight: 600;
     color: #2B2C54;
