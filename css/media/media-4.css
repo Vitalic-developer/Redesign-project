@@ -4,12 +4,12 @@
     }
 
     h1 {
-        background: url(img/G.svg) no-repeat 150px 100px;
+        background: url(G.svg) no-repeat 150px 100px;
         background-size: 400px;
     }
 
     .block-2 h2 {
-        background: url(img/karakul.svg) no-repeat 450px 80px;
+        background: url(karakul.svg) no-repeat 450px 80px;
     }
 
     .what-will-you-learn {
@@ -24,7 +24,7 @@
     .training-program h2 {
         font-size: 32px;
         text-align: center;
-        background: url(img/circle.svg) no-repeat 380px 0;
+        background: url(circle.svg) no-repeat 380px 0;
         background-size: 140px;
     }
 
@@ -38,7 +38,7 @@
     }
 
     .block-7 h2 {
-        background: url(img/G.svg) no-repeat 645px 20px;
+        background: url(G.svg) no-repeat 645px 20px;
     }
 
     .block-7 ul {
@@ -66,7 +66,7 @@
 
     h1 {
         font-size: 32px;
-        background: url(img/G.svg) no-repeat 200px 100px;
+        background: url(G.svg) no-repeat 200px 100px;
         background-size: 230px;
     }
 
@@ -80,7 +80,7 @@
 
     .block-2 h2 {
         font-size: 32px;
-        background: url(img/karakul.svg) no-repeat 380px 50px;
+        background: url(karakul.svg) no-repeat 380px 50px;
         background-size: 250px;
         padding-bottom: 84px;
     }
@@ -137,7 +137,7 @@
     .how-we-teach h2 {
         font-size: 32px;
         margin-bottom: 26px;
-        background: url(img/G.svg) no-repeat 120px 5px;
+        background: url(G.svg) no-repeat 120px 5px;
         background-size: 150px;
     }
 
@@ -146,7 +146,7 @@
     }
 
     .block-7 h2 {
-        background: url(img/G.svg) no-repeat 450px 10px;
+        background: url(G.svg) no-repeat 450px 10px;
         font-size: 32px;
         background-size: 180px;
         padding: 10px 0;
@@ -205,7 +205,7 @@
     }
 
     h1 {
-        background: url(img/G.svg) no-repeat 80px 100px;
+        background: url(G.svg) no-repeat 80px 100px;
         background-size: 230px;
     }
 
@@ -230,7 +230,7 @@
     }
 
     .block-2 h2 {
-        background: url(img/karakul.svg) no-repeat 250px 60px;
+        background: url(karakul.svg) no-repeat 250px 60px;
         background-size: 250px;
     }
 
@@ -272,7 +272,7 @@
     }
 
     .block-7 h2 {
-        background: url(img/G.svg) no-repeat 330px 10px;
+        background: url(G.svg) no-repeat 330px 10px;
         font-size: 32px;
         background-size: 180px;
     }
@@ -326,7 +326,7 @@
         }
 
         h1 {
-            background: url(img/G.svg) no-repeat 60px 60px;
+            background: url(G.svg) no-repeat 60px 60px;
             background-size: 230px;
             padding: 70px 10px 20px;
         }
@@ -353,7 +353,7 @@
 
         .block-2 h2 {
             padding-bottom: 84px;
-            background: url(img/karakul.svg) no-repeat 130px 80px;
+            background: url(karakul.svg) no-repeat 130px 80px;
             background-size: 250px;
         }
 
@@ -364,19 +364,19 @@
         }
 
         .block-2 ul li:nth-child(1) {
-            background: url("img/star.svg") no-repeat 100px 0;
+            background: url("star.svg") no-repeat 100px 0;
         }
 
         .block-2 ul li:nth-child(2) {
-            background: url("img/cap.svg") no-repeat 100px 0;
+            background: url("cap.svg") no-repeat 100px 0;
         }
 
         .block-2 ul li:nth-child(3) {
-            background: url("img/bulb.svg") no-repeat 100px 0;
+            background: url("bulb.svg") no-repeat 100px 0;
         }
 
         .block-2 ul li:nth-child(4) {
-            background: url("img/pan.svg") no-repeat 130px 0;
+            background: url("pan.svg") no-repeat 130px 0;
         }
 
         .block-3 {
@@ -417,7 +417,7 @@
             font-size: 32px;
             padding: 10px 90px;
             margin-top: 30px;
-            background: url(img/G.svg) no-repeat 230px 10px;
+            background: url(G.svg) no-repeat 230px 10px;
             background-size: 180px;
         }
 
@@ -427,31 +427,31 @@
 
 
         .block-7 ul li:nth-child(1) {
-            background: url(img/star.svg) no-repeat 90px 10px;
+            background: url(star.svg) no-repeat 90px 10px;
         }
 
         .block-7 ul li:nth-child(2) {
-            background: url(img/cap.svg) no-repeat 90px 10px;
+            background: url(cap.svg) no-repeat 90px 10px;
         }
 
         .block-7 ul li:nth-child(3) {
-            background: url(img/book.svg) no-repeat 90px 10px;
+            background: url(book.svg) no-repeat 90px 10px;
         }
 
         .block-7 ul li:nth-child(4) {
-            background: url(img/calendar.svg) no-repeat 90px 10px;
+            background: url(calendar.svg) no-repeat 90px 10px;
         }
 
         .block-7 ul li:nth-child(5) {
-            background: url(img/social.svg) no-repeat 90px 10px;
+            background: url(social.svg) no-repeat 90px 10px;
         }
 
         .block-7 ul li:nth-child(6) {
-            background: url(img/devices.svg) no-repeat 90px 10px;
+            background: url(devices.svg) no-repeat 90px 10px;
         }
 
         .block-7 ul li:nth-child(7) {
-            background: url(img/bulb.svg) no-repeat 90px 10px;
+            background: url(bulb.svg) no-repeat 90px 10px;
         }
 
     }
@@ -475,12 +475,12 @@
 
     h1 {
         padding: 14px 10px 20px;
-        background: url(img/G.svg) no-repeat 60px 10px;
+        background: url(G.svg) no-repeat 60px 10px;
         background-size: 230px;
     }
 
     .block-2 h2 {
-        background: url(img/karakul.svg) no-repeat 70px 80px;
+        background: url(karakul.svg) no-repeat 70px 80px;
         background-size: 250px;
     }
 
@@ -514,7 +514,7 @@
 
     .block-7 h2 {
         padding: 0;
-        background: url(img/G.svg) no-repeat 160px 0;
+        background: url(G.svg) no-repeat 160px 0;
         background-size: 180px;
     }
 

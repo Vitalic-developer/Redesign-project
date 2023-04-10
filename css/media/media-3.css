@@ -4,12 +4,12 @@
     }
 
     h1 {
-        background: url(img/G.svg) no-repeat 150px 100px;
+        background: url(G.svg) no-repeat 150px 100px;
         background-size: 400px;
     }
 
     .block-2 h2 {
-        background: url(img/karakul.svg) no-repeat 450px 80px;
+        background: url(karakul.svg) no-repeat 450px 80px;
     }
 
     .what-will-you-learn {
@@ -22,13 +22,13 @@
     }
 
     .block-4 h2 {
-        background: url(img/circle.svg) no-repeat 260px 0;
+        background: url(circle.svg) no-repeat 260px 0;
     }
 
     .training-program h2 {
         font-size: 32px;
         text-align: center;
-        background: url(img/circle.svg) no-repeat 380px 0;
+        background: url(circle.svg) no-repeat 380px 0;
         background-size: 140px;
     }
 
@@ -57,7 +57,7 @@
 
     h1 {
         font-size: 32px;
-        background: url(img/G.svg) no-repeat 200px 100px;
+        background: url(G.svg) no-repeat 200px 100px;
         background-size: 230px;
     }
 
@@ -71,7 +71,7 @@
 
     .block-2 h2 {
         font-size: 32px;
-        background: url(img/karakul.svg) no-repeat 380px 50px;
+        background: url(karakul.svg) no-repeat 380px 50px;
         background-size: 250px;
         padding-bottom: 84px;
     }
@@ -117,7 +117,7 @@
     }
 
     .block-4 h2 {
-        background: url(img/circle.svg) no-repeat 290px 20px;
+        background: url(circle.svg) no-repeat 290px 20px;
         background-size: 190px;
         font-size: 32px;
     }
@@ -130,7 +130,7 @@
     .how-we-teach h2 {
         font-size: 32px;
         margin-bottom: 26px;
-        background: url(img/G.svg) no-repeat 120px 5px;
+        background: url(G.svg) no-repeat 120px 5px;
         background-size: 150px;
     }
 
@@ -177,7 +177,7 @@
     }
 
     h1 {
-        background: url(img/G.svg) no-repeat 80px 100px;
+        background: url(G.svg) no-repeat 80px 100px;
         background-size: 230px;
     }
 
@@ -202,7 +202,7 @@
     }
 
     .block-2 h2 {
-        background: url(img/karakul.svg) no-repeat 250px 60px;
+        background: url(karakul.svg) no-repeat 250px 60px;
         background-size: 250px;
     }
 
@@ -212,7 +212,7 @@
     }
 
     .block-4 h2 {
-        background: url(img/circle.svg) no-repeat 170px 20px;
+        background: url(circle.svg) no-repeat 170px 20px;
         background-size: 190px;
         padding-bottom: 30px;
     }
@@ -257,7 +257,7 @@
     }
 
     .certificate {
-        background: url(img/arrow-2.svg) no-repeat 180px -10px;
+        background: url(arrow-2.svg) no-repeat 180px -10px;
     }
 
     .certificate h3 {
@@ -291,7 +291,7 @@
         }
 
         h1 {
-            background: url(img/G.svg) no-repeat 60px 60px;
+            background: url(G.svg) no-repeat 60px 60px;
             background-size: 230px;
             padding: 70px 10px 20px;
         }
@@ -318,7 +318,7 @@
 
         .block-2 h2 {
             padding-bottom: 84px;
-            background: url(img/karakul.svg) no-repeat 130px 80px;
+            background: url(karakul.svg) no-repeat 130px 80px;
             background-size: 250px;
         }
 
@@ -329,19 +329,19 @@
         }
 
         .block-2 ul li:nth-child(1) {
-            background: url("img/star.svg") no-repeat 100px 0;
+            background: url("star.svg") no-repeat 100px 0;
         }
 
         .block-2 ul li:nth-child(2) {
-            background: url("img/cap.svg") no-repeat 100px 0;
+            background: url("cap.svg") no-repeat 100px 0;
         }
 
         .block-2 ul li:nth-child(3) {
-            background: url("img/bulb.svg") no-repeat 100px 0;
+            background: url("bulb.svg") no-repeat 100px 0;
         }
 
         .block-2 ul li:nth-child(4) {
-            background: url("img/pan.svg") no-repeat 130px 0;
+            background: url("pan.svg") no-repeat 130px 0;
         }
 
         .block-3 {
@@ -353,7 +353,7 @@
         }
 
         .block-4 h2 {
-            background: url(img/circle.svg) no-repeat 50px 20px;
+            background: url(circle.svg) no-repeat 50px 20px;
             background-size: 190px;
         }
 
@@ -396,7 +396,7 @@
         }
 
         .certificate {
-            background: url(img/arrow-2.svg) no-repeat 180px 0;
+            background: url(arrow-2.svg) no-repeat 180px 0;
             background-size: 100px;
         }
 
@@ -427,12 +427,12 @@
 
     h1 {
         padding: 14px 10px 20px;
-        background: url(img/G.svg) no-repeat 60px 10px;
+        background: url(G.svg) no-repeat 60px 10px;
         background-size: 230px;
     }
 
     .block-2 h2 {
-        background: url(img/karakul.svg) no-repeat 70px 80px;
+        background: url(karakul.svg) no-repeat 70px 80px;
         background-size: 250px;
     }
 
@@ -456,7 +456,7 @@
     }
 
     .block-4 h2 {
-        background: url(img/circle.svg) no-repeat 100px 25px;
+        background: url(circle.svg) no-repeat 100px 25px;
         background-size: 150px;
         padding-left: 10px;
         padding-right: 10px;

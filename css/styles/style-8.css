@@ -25,6 +25,12 @@ li {
     list-style-type: none;
 }
 
+.block-backgorund-1 {
+    background: url("header-background.jpg") no-repeat 240px -15px;
+    width: 1980px;
+    margin: 0 auto;
+}
+
 .header .container {
     display: flex;
     justify-content: space-between;
@@ -57,99 +63,46 @@ li {
 }
 
 h1 {
-    padding: 20px 0 55px;
-    font-size: 60px;
-    color: #2b2c54;
-    background-size: 340px;
-}
-
-.block-1 {
-    background: url("img/background-anastasia.png") no-repeat -170px 0;
-    background-size: cover;
-    padding: 83px 0 0 0;
-}
-
-.profile {
-    width: 680px;
-    padding: 15px 0 0 230px;
-}
-
-.profile h3 {
-    font-size: 20px;
-    opacity: 80%;
-    color: #2B2C54;
-    font-weight: 600;
-    padding-bottom: 22px;
-
-}
-
-.profile p {
-    font-size: 18px;
-    color: #2B2C54;
-    opacity: 70%;
-    font-weight: 500;
-    padding-bottom: 250px;
-}
-
-
-.block-2 h2 {
     text-align: center;
-    padding: 25px 250px 25px;
+    padding: 20px 0 20px;
     font-size: 60px;
     margin: 70px 0 0 0;
     color: #2b2c54;
-    background-size: 480px;
-    font-weight: 600;
+    background-size: 340px;
 }
-
-.teacher {
-    margin: 20px 0 0 0;
+.text{
+    width: 1110px;
+    margin: 0 auto;
 }
-
-.teacher ul {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    height: 545px;
+.text ul{
+    padding-top: 30px;
 }
-
-.teacher ul li h4 {
-    padding: 40px 0 20px;
-    width: 398px;
-    height: 40px;
-    background-color: white;
-    box-shadow: 0 1px 30px -18px rgb(0 0 0 / 50%);
-    color: #2b2c54;
-    font-weight: 600;
+.text ul li{
+    font-size: 18px;
+    color: #2B2C54;
+    opacity: 70%;
+    padding-bottom: 16px;
+    font-weight: 500;
 }
-
-.arrows {
-    display: flex;
-    justify-content: space-around;
-    font-size: 30px;
-    color: #6743EF;
+.text p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #2B2C54;
+    opacity: 70%;
 }
-
-.arrows button {
-    font-size: 20px;
-    padding: 19px 27px 19px 27px;
-    border-radius: 50%;
-    color: #6743EF;
-    background-color: white;
-    border-top: 1px solid;
-    border-right: 1px solid;
-    border-left: 1px solid;
-    border-bottom: 4px solid;
-    border-color: #7656f1;
-    margin: 20px 0 0 0;
+.text h3{
+    color: #2B2C54;
+    opacity: 70%;
+    padding-top: 30px;
+    padding-bottom: 16px;
+    font-weight: 700;
 }
-
 
 .footer {
-    background: url("img/footer.png") no-repeat;
+    background: url("footer.png") no-repeat;
     background-size: cover;
-    margin: 45px 0 0 0;
-    padding: 0 0 190px 0;
+    margin: 108px 0 0 0;
+    padding: 0 0 120px 0;
 }
 
 .social {
@@ -183,8 +136,7 @@ h1 {
 .info-for-our {
     width: 428px;
 }
-
-.text h4 {
+.text h4{
     color: #2B2C54;
     opacity: 70%;
     font-size: 16px;

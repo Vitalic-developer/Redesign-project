@@ -64,7 +64,7 @@ li {
 
 h1 {
     font-size: 60px;
-    background: url("img/G.svg") no-repeat 10px 10px;
+    background: url("G.svg") no-repeat 10px 10px;
     padding: 0 20px 20px 0;
 }
 
@@ -85,17 +85,17 @@ h1 {
     box-shadow: 0 0 10px 5px rgb(242, 242, 245);
 }
 .contact ul:nth-of-type(1) li:nth-child(1){
-    background: url("img/contacts/map.svg")no-repeat 20px 20px;
+    background: url("map.svg")no-repeat 20px 20px;
 }
 .contact ul:nth-of-type(1) li:nth-child(2){
-    background: url("img/contacts/opening-hours.svg")no-repeat 20px 20px;
+    background: url("opening-hours.svg")no-repeat 20px 20px;
 }
 
 .contact ul:nth-of-type(2) li:nth-child(1){
-    background: url("img/contacts/message.svg")no-repeat 20px 20px;
+    background: url("message.svg")no-repeat 20px 20px;
 }
 .contact ul:nth-of-type(2) li:nth-child(2){
-    background: url("img/contacts/mobile.svg")no-repeat 20px 20px;
+    background: url("mobile.svg")no-repeat 20px 20px;
 }
 
 .contact h2 {
@@ -113,7 +113,7 @@ h1 {
 
 
 .footer {
-    background: url("img/footer.png") no-repeat;
+    background: url("footer.png") no-repeat;
     background-size: cover;
     margin: 108px 0 0 0;
     padding: 0 0 120px 0;

@@ -26,7 +26,7 @@ li {
 }
 
 .block-backgorund-1 {
-    background: url("img/header-background.jpg") no-repeat 240px -15px;
+    background: url("header-background.jpg") no-repeat 240px -15px;
     width: 1980px;
     margin: 0 auto;
 }
@@ -70,7 +70,7 @@ h1 {
     font-size: 60px;
     margin: 70px 0 0 0;
     color: #2b2c54;
-    background: url(img/G.svg) no-repeat 800px 20px;
+    background: url(G.svg) no-repeat 800px 20px;
     background-size: 340px;
 }
 
@@ -225,7 +225,7 @@ h1 {
 
 
 .footer {
-    background: url("img/footer.png") no-repeat;
+    background: url("footer.png") no-repeat;
     background-size: cover;
     margin: 78px 0 0 0;
     padding: 0 0 120px 0;

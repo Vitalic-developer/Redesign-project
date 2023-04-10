@@ -1,14 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
     font-weight: 600;
+    box-sizing: border-box;
 }
 
 body {
     overflow-x: hidden;
     font-family: Montserrat, sans-serif;
-    overflow-x: hidden;
 }
 
 a {
@@ -18,16 +17,14 @@ a {
 .container {
     width: 1680px;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 li {
     list-style-type: none;
 }
 
-.block-backgorund-1 {
-    background: url("img/header-background.jpg") no-repeat 240px -15px;
-    width: 1980px;
+.block-background-1 {
+    background: url("../../img/header-background.jpg") no-repeat top right;
     margin: 0 auto;
 }
 
@@ -66,7 +63,7 @@ h1 {
     text-align: center;
     padding: 20px 250px 20px;
     font-size: 60px;
-    background: url(img/G.svg) no-repeat 1010px 25px;
+    background: url("../../img/G.svg") no-repeat 1010px 25px;
     margin: 70px 0 0 0;
     color: #2b2c54;
     background-size: 340px;
@@ -93,14 +90,18 @@ h1 {
     text-align: center;
 }
 .block-3{
-    background: url("img/purple-back.jpg")no-repeat;
-    width: 1980px;
+    background: url("../../img/purple-back.png") no-repeat top center;
     margin: 0 auto;
+    background-size: 100% 100%;
 }
 .block-3 .container .preparation{
     padding: 215px 0 342px 150px;
-    width: 490px;
+    width: 686px;
     color: #FFFFFF;
+}
+.block-3 img{
+    float: right;
+    margin-top: 143px;
 }
 .preparation h2{
     font-size: 60px;
@@ -125,6 +126,11 @@ h1 {
     margin: 5px 0 0 0;
     letter-spacing: 1px;
 }
+
+.slider{
+    margin-bottom: 230px;
+}
+
 .block-4 h2{
     text-align: center;
     font-size: 60px;
@@ -133,13 +139,69 @@ h1 {
 .block-4 ul{
     display: flex;
     justify-content: space-between;
+    height: 609px;
+    position: relative;
 }
 .block-4 ul li{
     color: #2B2C54;
-    padding: 22px 0 398px 22px;
+    padding: 22px 0 0 22px;
     box-shadow: 0 14px 28px rgba(243,243,245);
-    width: 378px;
+    width: 100%;
+    height: 609px;
+    position: relative;
 }
+
+.owl-dots{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.owl-carousel button{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.owl-carousel button.owl-dot.active{
+    width: 36px;
+    height: 12px;
+    background: #8062F2;
+    border-radius: 12px;
+}
+
+.owl-carousel button.owl-dot{
+    width: 12px;
+    height: 12px;
+    border: 1px solid rgba(43, 44, 84, 0.2);
+    border-radius: 12px;
+}
+
+.owl-nav{
+    position: absolute;
+    width: 832px;
+    left: 50%;
+    bottom: -87px;
+    margin-left: -416px;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    width: 65px;
+    height: 65px;
+    background:
+            url("../../img/sliders/slider-arrow-left.png") no-repeat center,
+            url("../../img/sliders/arrow-ellipse.png") no-repeat center;
+}
+.owl-carousel .owl-nav button.owl-next{
+    width: 65px;
+    height: 65px;
+    background:
+            url("../../img/sliders/slider-arrow-right.png") no-repeat center,
+            url("../../img/sliders/arrow-ellipse.png") no-repeat center;
+    position: absolute;
+    right: 0;
+}
+
+.owl-carousel .owl-nav button span{
+    display: none;
+}
+
 .block-4 ul li h3{
     font-size: 20px;
     padding-bottom: 25px;
@@ -164,72 +226,20 @@ h1 {
     color: #a38ef6;
     margin: 5px 0 0 0;
     letter-spacing: 1px;
+    position: absolute;
+    left: 20px;
+    top: 155px;
+
 }
-.belarus ul li:nth-child(1){
-    background: url("img/universities.jpg")no-repeat 0px 230px;
-}
-.belarus ul li:nth-child(2){
-    background: url("img/universities.jpg")no-repeat -430px 230px;
-}
-.belarus ul li:nth-child(3){
-    background: url("img/universities.jpg")no-repeat -870px 230px;
-}
-.belarus ul li:nth-child(4){
-    background: url("img/universities.jpg")no-repeat -1300px 230px;
-}
-.russia{
-    padding-top: 120px;
-}
-.russia ul li:nth-child(1){
-    background: url("img/universities.jpg")no-repeat -10px -702px;
-}
-.russia ul li:nth-child(2){
-    background: url("img/universities.jpg")no-repeat -440px -702px;
-}
-.russia ul li:nth-child(3){
-    background: url("img/universities.jpg")no-repeat -870px -702px;
-}
-.russia ul li:nth-child(4){
-    background: url("img/universities.jpg")no-repeat -1300px -702px;
-}
-.сzech{
-    padding-top: 120px;
-}
-.сzech ul li:nth-child(1){
-    background: url("img/universities.jpg")no-repeat -1px -1796px;
-}
-.сzech ul li:nth-child(2){
-    background: url("img/universities.jpg")no-repeat -434px -1796px;
-}
-.сzech ul li:nth-child(3){
-    background: url("img/universities.jpg")no-repeat -870px -1796px;
-}
-.сzech ul li:nth-child(4){
-    background: url("img/universities.jpg")no-repeat -1300px -1796px;
+.block-4 ul li img{
+    position: absolute;
+    top: 260px;
+    left: 0;
 }
 
-.arrows {
-    display: flex;
-    justify-content: space-around;
-    font-size: 30px;
-    color: #6743EF;
-    padding-top: 25px;
-}
-.arrows a {
-    padding: 10px 20px 10px 20px;
-    border-radius: 50%;
-    color: #6743EF;
-    background-color: white;
-    border-top: 1px solid;
-    border-right: 1px solid;
-    border-left: 1px solid;
-    border-bottom: 4px solid;
-    border-color: #7656f1;
-}
 .college-program h2{
-
     color: #2b2c54;
-    background: url(img/G.svg) no-repeat 825px 20px;
+    background: url("../../img/G.svg") no-repeat 825px 20px;
     background-size: 480px;
     margin: 70px 0 0 0;
     padding: 35px 250px 25px;
@@ -255,11 +265,11 @@ h1 {
     box-shadow: none;
 }
 .college-program ul li:first-child{
-    background: url("img/forJun 1.jpg")no-repeat 10px 10px;
+    background: url("../../img/forJun 1.jpg")no-repeat 10px 10px;
     padding: 240px 0 70px 60px;
 }
 .college-program ul li:last-child{
-    background: url("img/forJun 2.jpg")no-repeat 10px 10px;
+    background: url("../../img/forJun 2.jpg")no-repeat 10px 10px;
     padding: 240px 0 70px 60px;
 }
 .college-program h5{
@@ -296,81 +306,9 @@ h1 {
 .poland{
     padding-top: 120px;
 }
-.poland ul li:nth-child(1){
-    background: url("img/universities.jpg")no-repeat 0 -2951px;
-}
-.poland ul li:nth-child(2){
-    background: url("img/universities.jpg")no-repeat -430px -2951px;
-}
-.poland ul li:nth-child(3){
-    background: url("img/universities.jpg")no-repeat -870px -2951px;
-}
-.poland ul li:nth-child(4){
-    background: url("img/universities.jpg")no-repeat -1310px -2951px;
-}
-.holland{
-    padding-top: 120px;
-}
-.holland ul li:nth-child(1){
-    background: url("img/universities.jpg")no-repeat 0 -2951px;
-}
-.holland ul li:nth-child(2){
-    background: url("img/universities.jpg")no-repeat -430px -2951px;
-}
-.holland ul li:nth-child(3){
-    background: url("img/universities.jpg")no-repeat -870px -2951px;
-}
-.holland ul li:nth-child(4){
-    background: url("img/universities.jpg")no-repeat -1310px -2951px;
-}
-.france{
-    padding-top: 120px;
-}
-.france ul li:nth-child(1){
-    background: url("img/universities.jpg")no-repeat 0 -2951px;
-}
-.france ul li:nth-child(2){
-    background: url("img/universities.jpg")no-repeat -430px -2951px;
-}
-.france ul li:nth-child(3){
-    background: url("img/universities.jpg")no-repeat -870px -2951px;
-}
-.france ul li:nth-child(4){
-    background: url("img/universities.jpg")no-repeat -1310px -2951px;
-}
-.england{
-    padding-top: 120px;
-}
-.england ul li:nth-child(1){
-    background: url("img/universities.jpg")no-repeat 0 -2951px;
-}
-.england ul li:nth-child(2){
-    background: url("img/universities.jpg")no-repeat -430px -2951px;
-}
-.england ul li:nth-child(3){
-    background: url("img/universities.jpg")no-repeat -870px -2951px;
-}
-.england ul li:nth-child(4){
-    background: url("img/universities.jpg")no-repeat -1310px -2951px;
-}
-.estonia{
-    padding-top: 120px;
-}
-.estonia ul li:nth-child(1){
-    background: url("img/universities.jpg")no-repeat 0 -2951px;
-}
-.estonia ul li:nth-child(2){
-    background: url("img/universities.jpg")no-repeat -430px -2951px;
-}
-.estonia ul li:nth-child(3){
-    background: url("img/universities.jpg")no-repeat -870px -2951px;
-}
-.estonia ul li:nth-child(4){
-    background: url("img/universities.jpg")no-repeat -1310px -2951px;
-}
 
 .footer {
-    background: url("img/footer.png") no-repeat;
+    background: url("../../img/footer.png") no-repeat;
     background-size: cover;
     margin: 63px 0 0 0;
 }

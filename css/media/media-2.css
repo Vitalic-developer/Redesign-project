@@ -9,7 +9,7 @@
     }
 
     h1 {
-        background: url(img/G.svg) no-repeat 250px 10px;
+        background: url(G.svg) no-repeat 250px 10px;
         background-size: 450px;
     }
 
@@ -22,7 +22,7 @@
 
 
     .block-2 h2 {
-        background: url(img/G.svg) no-repeat 715px 20px;
+        background: url(G.svg) no-repeat 715px 20px;
         background-size: 370px;
     }
     .block-2 h3 {
@@ -41,7 +41,7 @@
         padding: 60px 160px;
     }
     .block-5 h2{
-        background: url(img/G.svg)no-repeat 645px 20px;
+        background: url(G.svg)no-repeat 645px 20px;
     }
     .block-5 ul{
         padding: 0;
@@ -61,7 +61,7 @@
     }
 
     h1 {
-        background: url(img/G.svg) no-repeat 30px 10px;
+        background: url(G.svg) no-repeat 30px 10px;
         background-size: 450px;
         padding: 20px 0;
     }
@@ -117,7 +117,7 @@
     }
 
     .block-2 h2 {
-        background: url(img/G.svg) no-repeat 495px 20px;
+        background: url(G.svg) no-repeat 495px 20px;
         background-size: 370px;
         margin: 40px 0 0 0;
         padding: 25px 0;
@@ -163,7 +163,7 @@
         padding: 0 200px;
     }
     .block-5 h2 {
-        background: url(img/G.svg)no-repeat 420px 10px;
+        background: url(G.svg)no-repeat 420px 10px;
         padding: 10px 0;
         margin-top: 60px;
     }
@@ -207,7 +207,7 @@
 
     h1 {
         padding: 20px 100px 20px;
-        background: url(img/G.svg) no-repeat 150px 20px;
+        background: url(G.svg) no-repeat 150px 20px;
         background-size: 240px;
         font-size: 32px;
     }
@@ -235,7 +235,7 @@
     }
 
     .block-2 h2 {
-        background: url(img/G.svg) no-repeat 365px 20px;
+        background: url(G.svg) no-repeat 365px 20px;
         background-size: 240px;
         font-size: 32px;
     }
@@ -256,7 +256,7 @@
         padding: 0 110px;
     }
     .block-5 h2{
-        background: url(img/G.svg)no-repeat 330px 10px;
+        background: url(G.svg)no-repeat 330px 10px;
         font-size: 32px;
         background-size: 180px;
     }
@@ -300,7 +300,7 @@
 
     h1 {
         padding: 20px 50px 20px;
-        background: url(img/G.svg) no-repeat 60px 20px;
+        background: url(G.svg) no-repeat 60px 20px;
         background-size: 200px;
     }
 
@@ -318,7 +318,7 @@
     }
 
     .block-2 h2 {
-        background: url(img/G.svg) no-repeat 245px 20px;
+        background: url(G.svg) no-repeat 245px 20px;
         background-size: 240px;
     }
     .block-2 h3{
@@ -350,7 +350,7 @@
         font-size: 32px;
         padding: 10px 90px;
         margin-top: 30px;
-        background: url(img/G.svg) no-repeat 230px 10px;
+        background: url(G.svg) no-repeat 230px 10px;
         background-size: 180px;
     }
     .block-5 ul{
@@ -358,13 +358,13 @@
     }
 
 
-    .block-5 ul li:nth-child(1){background: url(img/star.svg) no-repeat 90px 10px;}
-    .block-5 ul li:nth-child(2){background: url(img/cap.svg) no-repeat 90px 10px;}
-    .block-5 ul li:nth-child(3){background: url(img/book.svg) no-repeat 90px 10px;}
-    .block-5 ul li:nth-child(4){background: url(img/calendar.svg) no-repeat 90px 10px;}
-    .block-5 ul li:nth-child(5){background: url(img/social.svg) no-repeat 90px 10px;}
-    .block-5 ul li:nth-child(6){background: url(img/devices.svg) no-repeat 90px 10px;}
-    .block-5 ul li:nth-child(7){background: url(img/bulb.svg) no-repeat 90px 10px;}
+    .block-5 ul li:nth-child(1){background: url(star.svg) no-repeat 90px 10px;}
+    .block-5 ul li:nth-child(2){background: url(cap.svg) no-repeat 90px 10px;}
+    .block-5 ul li:nth-child(3){background: url(book.svg) no-repeat 90px 10px;}
+    .block-5 ul li:nth-child(4){background: url(calendar.svg) no-repeat 90px 10px;}
+    .block-5 ul li:nth-child(5){background: url(social.svg) no-repeat 90px 10px;}
+    .block-5 ul li:nth-child(6){background: url(devices.svg) no-repeat 90px 10px;}
+    .block-5 ul li:nth-child(7){background: url(bulb.svg) no-repeat 90px 10px;}
 
 }
 @media all and (max-width: 690px) {
@@ -374,7 +374,7 @@
 
     h1 {
         padding: 0;
-        background: url(img/G.svg) no-repeat 40px 0;
+        background: url(G.svg) no-repeat 40px 0;
         background-size: 200px;
         margin-bottom: 60px;
     }
@@ -384,7 +384,7 @@
     }
 
     .block-2 h2 {
-        background: url(img/G.svg) no-repeat 55px 60px;
+        background: url(G.svg) no-repeat 55px 60px;
         background-size: 240px;
     }
     .block-2 ul li{
@@ -396,14 +396,14 @@
     }
 
     .block-2 ul li:nth-child(1) {
-        background: url("img/forJun 1.jpg") no-repeat -230px 0;
+        background: url("forJun 1.jpg") no-repeat -230px 0;
         background-size: 740px;
         margin: 30px 16px 0 16px;
 
     }
 
     .block-2 ul li:nth-child(2) {
-        background: url("img/forJun 2.jpg") no-repeat -230px 0;
+        background: url("forJun 2.jpg") no-repeat -230px 0;
         background-size: 740px;
         margin: 30px 16px 0 16px;
 
@@ -413,7 +413,7 @@
     }
     .block-5 h2 {
         padding: 0;
-        background: url(img/G.svg) no-repeat 160px 0;
+        background: url(G.svg) no-repeat 160px 0;
         background-size: 180px;
     }
     .footer{

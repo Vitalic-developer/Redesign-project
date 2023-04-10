@@ -56,7 +56,7 @@ li {
 .error{
     height: 770px;
     max-width: 1980px;
-    background: url(img/404.jpg)no-repeat 325px -30px;
+    background: url(404.jpg)no-repeat 325px -30px;
     margin: 0 auto;
 }
 .block-1{

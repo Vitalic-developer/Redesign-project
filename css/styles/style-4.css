@@ -4,7 +4,7 @@
 }
 
 .block-backgorund-1 {
-    background: url("img/header-background.jpg") no-repeat 240px -15px;
+    background: url("header-background.jpg") no-repeat 240px -15px;
 }
 
 .header .container {
@@ -47,7 +47,7 @@ h1 {
     text-align: center;
     padding-bottom: 20px;
     padding-top: 104px;
-    background: url(img/G.svg) no-repeat 300px 100px;
+    background: url(G.svg) no-repeat 300px 100px;
     background-size: 400px;
 }
 
@@ -110,7 +110,7 @@ h1 {
     font-size: 60px;
     text-align: center;
     padding-bottom: 150px;
-    background: url("img/karakul.svg") no-repeat 600px 80px;
+    background: url("karakul.svg") no-repeat 600px 80px;
 }
 
 .block-2 ul {
@@ -126,19 +126,19 @@ h1 {
 }
 
 .block-2 ul li:nth-child(1) {
-    background: url("img/star.svg") no-repeat -30px 0;
+    background: url("star.svg") no-repeat -30px 0;
 }
 
 .block-2 ul li:nth-child(2) {
-    background: url("img/cap.svg") no-repeat -30px 0;
+    background: url("cap.svg") no-repeat -30px 0;
 }
 
 .block-2 ul li:nth-child(3) {
-    background: url("img/bulb.svg") no-repeat -30px 0;
+    background: url("bulb.svg") no-repeat -30px 0;
 }
 
 .block-2 ul li:nth-child(4) {
-    background: url("img/pan.svg") no-repeat 0 0;
+    background: url("pan.svg") no-repeat 0 0;
 }
 
 
@@ -179,66 +179,110 @@ h1 {
     margin-bottom: 16px;
 }
 
-.block-4{
-    margin-top: 30px;
-}
-.block-4 h2{
+.block-4 h2 {
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 48px;
-    background: url("img/circle.svg")no-repeat 400px 0;
+    padding: 25px 0 25px;
+    font-size: 60px;
+    margin: 70px 0 0 0;
+    color: #2b2c54;
+    background-size: 480px;
+    font-weight: 600;
 }
-.curator{
+
+.teacher {
+    margin: 20px 0 0 0;
+}
+
+.teacher ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+    height: 545px;
 }
-.curator p{
-    max-width: 730px;
-    margin-top: 110px;
-    font-size: 18px;
+
+.teacher ul li h4 {
+    padding: 40px 0 20px;
+    width: 398px;
+    height: 40px;
+    background-color: white;
+    box-shadow: 0 1px 30px -18px rgb(0 0 0 / 50%);
+    color: #2b2c54;
+    font-weight: 600;
 }
-.block-5{
+
+.arrows {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    color: #6743EF;
+}
+
+.arrows a {
+    padding: 10px 20px 10px 20px;
+    border-radius: 50%;
+    color: #6743EF;
+    background-color: white;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-bottom: 4px solid;
+    border-color: #7656f1;
+}
+
+.block-5 {
     margin-top: 20px;
 }
-.how-we-teach{
+
+.how-we-teach {
     display: flex;
     justify-content: center;
 }
-.how-we-teach div img{
+
+.how-we-teach div img {
     margin-left: -260px;
 }
-.how-we-teach div:last-child{
+
+.how-we-teach div:last-child {
     padding-top: 70px;
     max-width: 790px;
 }
-.how-we-teach ul li{
+
+.how-we-teach ul li {
     margin-bottom: 30px;
 }
-.how-we-teach h2{
+
+.how-we-teach h2 {
     margin-bottom: 46px;
-    background: url("img/G.svg")no-repeat 240px 10px;
+    background: url("G.svg") no-repeat 240px 10px;
     background-size: 240px;
 }
-.how-we-teach h3{
+
+.how-we-teach h3 {
     margin-bottom: 10px;
 }
-.block-6 .container{
+
+.block-6 .container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.training-program{
+
+.training-program {
     max-width: 825px;
 }
-.training-program h2{
+
+.training-program h2 {
     padding-bottom: 30px;
-    background: url(img/circle.svg)no-repeat 440px 0;
-    background-size: 240px;
+    background: url(circle.svg) no-repeat 510px 0px;
+    background-size: 250px;
+    text-align: center;
 }
-.training-program p{
+
+.training-program p {
     margin-bottom: 30px;
 }
-.training-program select{
+
+.training-program select {
     width: 825px;
     padding: 30px 0 20px;
     font-size: 18px;
@@ -248,40 +292,132 @@ h1 {
     box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
     margin-bottom: 10px;
 }
-.certificate{
+
+.certificate {
     margin-top: 130px;
-    background: url("img/arrow-2.svg")no-repeat 340px 0;
+    background: url("arrow-2.svg") no-repeat 340px 0;
 }
-.certificate h3{
-   margin-bottom: 30px;
+
+.certificate h3 {
+    margin-bottom: 30px;
     font-size: 24px;
     max-width: 384px;
 }
-.block-7 h2{
+
+
+.block-7 h2 {
+    font-size: 60px;
+    text-align: center;
+    color: #2b2c54;
+    font-weight: 600;
+    margin-top: 115px;
+    background: url(G.svg) no-repeat 750px 25px;
+    padding: 20px 0;
+}
+
+.block-7 ul {
+    max-width: 1260px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.block-7 ul li {
+    width: 398px;
+    padding: 0 25px;
+    margin-top: 40px;
+}
+
+.block-7 h4 {
+    font-size: 24px;
+    padding-top: 100px;
+}
+
+.block-7 ul li:nth-child(1) {
+    background: url("star.svg") no-repeat;
+}
+
+.block-7 ul li:nth-child(2) {
+    background: url("cap.svg") no-repeat;
+}
+
+.block-7 ul li:nth-child(3) {
+    background: url("book.svg") no-repeat;
+}
+
+
+.block-7 ul li:nth-child(4) {
+    background: url("calendar.svg") no-repeat;
+}
+
+.block-7 ul li:nth-child(5) {
+    background: url("social.svg") no-repeat;
+}
+
+.block-7 ul li:nth-child(6) {
+    background: url("devices.svg") no-repeat;
+}
+
+.block-7 ul li:nth-child(7) {
+    background: url(bulb.svg) no-repeat;
+}
+
+.block-7 ul li:nth-child(8) {
+    width: 540px;
+}
+
+.block-7 ul li:nth-child(8) img {
+    width: 540px;
+}
+
+.practice h3 {
+    padding-top: 40px;
+}
+
+.practice p {
+    width: 398px;
+}
+
+.block-8 {
+    margin-top: 120px;
+}
+
+.block-8 h2 {
+    text-align: center;
+}
+
+
+.block-9 h2 {
     font-size: 42px;
     text-align: center;
     padding: 163px 420px 0;
-    background: url(img/check.svg)no-repeat 350px 130px;
+    background: url(check.svg) no-repeat 350px 130px;
 }
-.data{
+
+.data {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin: 40px auto 0;
     max-width: 540px;
 }
-.data input{
+
+.data input {
     border-radius: 40px;
     border: 1px solid #dfdfe5;
     padding: 21px 200px 21px 20px;
     transition-duration: .3s;
     margin-bottom: 15px;
 }
-.data input:hover{
+
+.data input:hover {
     transition-duration: .3s;
     border-color: #b5a4f8;
 }
-form button{
+
+form button {
     background: #a38ef6;
     font-size: 20px;
     padding: 20px 40px 20px 40px;
@@ -293,29 +429,11 @@ form button{
     border-color: #7656f1;
     color: #F6F4FE;
 }
-.send{
+
+.send {
     text-align: center;
     margin-top: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .social {
     display: flex;
@@ -331,6 +449,9 @@ form button{
     background: #595ba9;
     padding: 85px 0 110px 0;
     margin-top: 60px;
+}
+.footer h5{
+    color: white;
 }
 
 .footer p {

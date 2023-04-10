@@ -8,6 +8,7 @@
 body {
     overflow-x: hidden;
     font-family: Montserrat, sans-serif;
+    overflow-x: hidden;
 }
 
 a {
@@ -24,8 +25,8 @@ li {
     list-style-type: none;
 }
 
-.block-background-1 {
-    background: url("img/header-background.jpg") no-repeat 240px -15px;
+.block-backgorund-1 {
+    background: url("header-background.jpg") no-repeat 240px -15px;
     width: 1980px;
     margin: 0 auto;
 }
@@ -65,104 +66,53 @@ h1 {
     text-align: center;
     padding: 20px 250px 20px;
     font-size: 60px;
-    background: url(img/G.svg) no-repeat 680px 17px;
+    background: url(G.svg) no-repeat 680px 17px;
     margin: 70px 0 0 0;
     color: #2b2c54;
     background-size: 340px;
 }
-.admission {
-    display: flex;
-    justify-content: space-between;
-    width: 1480px;
-    margin: 10px 0 0 45px;
-}
-.admission-text{
-    width: 682px;
-    padding: 105px 0 0 0;
-}
-.admission-text p{
-    padding: 0 0 50px 0;
-    width: 500px;
-    color: #2B2C54;
-    line-height: 24px;
-    opacity: 70%;
 
+.block-1 p{
+    color: #2B2C54;
+    opacity: 70%;
+    width: 1110px;
+    margin: 0 auto;
+    line-height: 30px;
+    padding: 0 0 0 120px;
 }
 .block-2{
-    background: url("img/k-dmitriy.png")no-repeat -200px 90px;
-    background-size: contain;
+    margin: 50px 0 0 0;
 }
-.rector{
-    padding: 262px 0 0 110px;
-    color: #2B2C54;
+.block-2 h3{
+    font-size: 32px;
+    padding-bottom: 16px;
 }
-.rector h2{
-    font-size: 60px;
-    width: 700px;
+.block-2 h4{
+    font-size: 24px;
+    padding-top: 10px;
 }
-.rector p{
+.block-2 p{
+    padding-top: 62px;
     opacity: 70%;
-    padding: 30px 0 450px 0;
-    font-size: 20px;
-}
-
-.block-3{
-    color: #2B2C54;
-    opacity: 70%;
-    padding: 55px 0 0 405px;
-}
-.block-3 p{
-    width: 670px;
-    padding: 25px 0;
-    line-height: 25px;
-}
-table{
-    border-collapse: collapse;
-    text-align: left;
-    width: 1110px;
-}
-td, th{
-    padding: 15px;
-    border: 2px solid #e7e7e7;
-    font-weight: 500;
-}
-.block-4{
-    color: #2B2C54;
-    opacity: 70%;
-    padding: 25px 0 0 0;
     font-size: 18px;
 }
-.block-4 h3{
-    padding: 25px 0 25px 0;
-    font-weight: 600;
-}
-.block-4 p{
-    font-weight: 500;
-}
-.block-4 .container{
+.block-2 .container ul{
+    display: flex;
+    justify-content: space-between;
     width: 1110px;
+    margin: 0 auto;
 }
+.block-2 .container ul li{
+    padding: 30px 0 35px 30px;
+    width: 510px;
+    background: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1), 0 1px 15px rgba(248,248,249);
 
-.block-5{
-    background: url("img/purple-back.jpg")no-repeat;
-    width: 1980px;
-    margin: 72px auto 0;
-}
-.block-5 .container .preparation{
-    padding: 215px 0 342px 150px;
-    width: 490px;
-    color: #FFFFFF;
-}
-.preparation h2{
-    font-size: 60px;
-    padding-bottom: 27px;
-}
-.preparation p{
-    padding-bottom: 33px;
-    font-weight: 300;
-}
+    color: #2B2C54;
+    margin-bottom: 30px;
 
-.block-5 .container .preparation button{
+}
+.block-2 .container ul li button{
     background: #FFFFFF;
     font-size: 20px;
     padding: 12px 42px 12px 42px;
@@ -173,16 +123,67 @@ td, th{
     border-bottom: 5px solid;
     border-color: #7656f1;
     color: #a38ef6;
-    margin: 5px 0 0 0;
     letter-spacing: 1px;
+    margin-top: 20px;
+}
+.separation{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px 0 0;
+}
+.block-3{
+    color: #2B2C54;
+}
+.block-3 h2{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 74px;
+    padding-bottom: 30px;
+}
+.block-3 h4{
+    text-align: center;
+    font-size: 16px;
+}
+.block-3 h5{
+    padding-top: 50px;
+    opacity: 70%;
+    font-size: 16px;
+}
+.payment{
+    width: 1110px;
+    margin: 0 auto;
+}
+.block-3 ul{
+    padding-top: 30px;
+}
+.block-3 ul li{
+    opacity: 70%;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: #2B2C54;
+}
+.payment p{
+    width: 968px;
+    color: #2B2C54;
+    opacity: 70%;
+    padding-top: 16px;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 
 
 
 
+
+
+
+
+
+
 .footer {
-    background: url("img/footer.png") no-repeat;
+    background: url("footer.png") no-repeat;
     background-size: cover;
     margin: 63px 0 0 0;
     padding: 0 0 120px 0;
