@@ -369,12 +369,12 @@
 }
 @media all and (max-width: 690px) {
     .container {
-        width: 350px;
+        width: 320px;
     }
 
     h1 {
         padding: 0;
-        background: url(img/G.svg) no-repeat 40px 0;
+        background: url(img/G.svg) no-repeat 20px 0;
         background-size: 200px;
         margin-bottom: 60px;
     }
@@ -413,7 +413,7 @@
     }
     .block-5 h2 {
         padding: 0;
-        background: url(img/G.svg) no-repeat 160px 0;
+        background: url(img/G.svg) no-repeat 140px 0;
         background-size: 180px;
     }
     .footer{
@@ -427,5 +427,11 @@
     }
     .info-for-our{
         width: 300px;
+    }
+    .footer img{
+        padding: 0;
+    }
+    .social{
+        justify-content: center;
     }
 }
