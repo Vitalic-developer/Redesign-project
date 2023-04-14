@@ -1,0 +1,82 @@
+@media all and (max-width: 1660px ) {
+    .container {
+        width: 1400px;
+    }
+
+
+}
+
+@media all and (max-width: 1400px ) {
+    .container {
+        width: 1000px;
+    }
+    .error{
+        max-width: 614px;
+        height: 378px;
+        background: url("img/404.jpg")no-repeat;
+        background-size: contain;
+    }
+    .oops{
+        margin-top: -50px;
+    }
+    .oops h1{
+        margin-bottom: 16px;
+        font-size: 32px;
+    }
+
+}
+
+@media all and (max-width: 1000px ) {
+    .container {
+        width: 750px;
+    }
+    .header{
+        display: none;
+    }
+    .logo-adapt{
+        display: block;
+    }
+    .logo-adapt img{
+        width: 156px;
+    }
+
+    .block-1 button{
+        padding: 14px 30px;
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+}
+
+@media all and (max-width: 750px ) {
+    .container {
+        width: 500px;
+    }
+    .error{
+        max-width:328px;
+        height: 202px;
+    }
+    .oops{
+        margin-top: -20px;
+    }
+
+
+
+}
+
+@media all and (max-width: 500px ) {
+    .container {
+        width: 320px;
+    }
+    .error{
+        width: 360px;
+        margin-top: 80px;
+    }
+    .error img{
+        width: 200px;
+    }
+
+
+
+}
+

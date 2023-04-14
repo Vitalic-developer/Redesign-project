@@ -1,3 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-weight: 600;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: Montserrat, sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1680px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+li {
+    list-style-type: none;
+}
+
 .header .container {
     display: flex;
     justify-content: space-between;
@@ -35,17 +62,16 @@ h1 {
     color: #2b2c54;
     background-size: 340px;
 }
-.block-1{
-    margin-top: 104px;
-}
-.block-1 .container{
-    display: flex;
-    justify-content: space-between;
+
+.block-1 {
+    background: url("background-anastasia.png") no-repeat -170px 0;
+    background-size: cover;
+    padding: 83px 0 0 0;
 }
 
 .profile {
-    max-width: 830px;
-    margin: 15px 0 0 150px;
+    width: 680px;
+    padding: 15px 0 0 230px;
 }
 
 .profile h3 {
@@ -120,7 +146,7 @@ h1 {
 
 
 .footer {
-    background: url("img/footer.png") no-repeat;
+    background: url("footer.png") no-repeat;
     background-size: cover;
     margin: 45px 0 0 0;
     padding: 0 0 190px 0;
