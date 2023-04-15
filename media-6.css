@@ -1,0 +1,226 @@
+@media all and (max-width: 1660px ) {
+    .container {
+        width: 1400px;
+    }
+    h1{
+        background: url(img/G.svg) no-repeat 550px 24px;
+    }
+    .admission{
+        max-width: 1050px;
+    }
+    .admission img{
+        width: 500px;
+    }
+    .admission-text{
+        padding: 0;
+    }
+    .block-2 .container{
+        max-width: 950px;
+    }
+    .block-2 .container img{
+        width: 400px;
+    }
+}
+
+@media all and (max-width: 1400px ) {
+    .container {
+        width: 1000px;
+    }
+    h1{
+        background: url(img/G.svg) no-repeat 350px 24px;
+    }
+    .admission-text p{
+        max-width: 370px;
+    }
+    .block-2{
+        margin-top: 50px;
+    }
+    .block-2 .container{
+        max-width: 850px;
+    }
+    .block-2 .container img{
+        width: 380px;
+    }
+
+    .rector h2{
+        font-size: 32px;
+    }
+    .table{
+        display: none;
+    }
+    .block-5 .container {
+        max-width: 930px;
+    }
+    .block-5 .container .preparation{
+        margin-top: 50px;
+    }
+    .art img{
+        width: 450px;
+        margin-top: 25px;
+    }
+
+
+    .social {
+        padding: 50px 0 0 0;
+    }
+
+    .footer-programms {
+        order: 1;
+        width: 688px;
+    }
+
+    .footer-info h4 {
+        padding: 20px 0;
+    }
+
+}
+
+@media all and (max-width: 1000px ) {
+    .container {
+        width: 750px;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .logo-adapt {
+        display: block;
+    }
+
+    .logo-adapt img {
+        width: 156px;
+    }
+    h1{
+        font-size: 32px;
+        background: url(img/G.svg) no-repeat 275px 18px;
+        background-size: 200px;
+        margin-top: 40px;
+    }
+    .admission img{
+        width: 376px;
+    }
+    .admission-text p{
+        padding-left: 15px;
+        line-height: 18px;
+    }
+    .admission-text p{
+        padding-bottom: 10px;
+    }
+    .block-2 .container{
+        max-width: 680px;
+    }
+    .block-2 .container img{
+        width: 370px;
+    }
+    .preparation h2{
+        font-size: 32px;
+    }
+    .block-5 .container {
+        max-width: 650px;
+    }
+    .art{
+        display: none;
+    }
+    .art-adapt{
+        display: block;
+    }
+
+
+
+    .social {
+        padding: 20px 0 0 0;
+    }
+
+    .footer-contacts {
+        width: 334px;
+    }
+
+    .footer p {
+        font-size: 16px;
+    }
+
+    .info-for-our {
+        width: 398px;
+    }
+
+    .footer-programms {
+        width: 220px;
+    }
+}
+
+@media all and (max-width: 750px ) {
+    .container {
+        width: 320px;
+    }
+    h1{
+        background: url(img/G.svg) no-repeat 60px 18px;
+        background-size: 200px;
+    }
+    .block-1 h3{
+        display: none;
+    }
+    .admission{
+        flex-wrap: wrap;
+    }
+    .admission-text{
+        margin-bottom: 30px;
+    }
+    .bgu{
+        order: 1;
+    }
+    .block-2 .container{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .rector{
+        margin-top: 0;
+    }
+    .block-4{
+        font-size: 16px;
+    }
+    .block-5 .container{
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 320px;
+    }
+    .block-5 .container .preparation button {
+        margin-bottom: 30px;
+    }
+}
+
+@media all and (max-width: 500px ) {
+    .container {
+        width: 320px;
+    }
+    h1{
+        margin-top: 20px;
+    }
+    .admission img {
+        width: 340px;
+    }
+    .admission-text p {
+        max-width: 320px;
+        padding: 0;
+    }
+    .block-2 .container img {
+        width: 328px;
+    }
+
+    .footer {
+        padding: 0 0 0 10px;
+    }
+
+    .footer-menu {
+        order: 1;
+    }
+
+    .social {
+        padding: 100px 0 0 0;
+    }
+
+    .info-for-our {
+        width: 300px;
+    }
+}
+

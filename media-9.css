@@ -1,0 +1,181 @@
+@media all and (max-width: 1660px ) {
+    .container {
+        width: 1400px;
+    }
+
+    h1 {
+        background: url(img/G.svg) no-repeat 650px 20px;
+        background-size: 340px;
+    }
+
+    .block-1 .container h3 {
+        padding: 0 250px;
+    }
+
+
+}
+
+@media all and (max-width: 1400px ) {
+    .container {
+        width: 1000px;
+    }
+
+    h1 {
+        background: url(img/G.svg) no-repeat 450px 20px;
+        background-size: 340px;
+    }
+
+    .block-1 .container h3 {
+        padding: 0 120px;
+    }
+
+    .block-2 ul li p {
+        width: 420px;
+    }
+
+
+    .social {
+        padding: 50px 0 0 0;
+    }
+
+    .footer-programms {
+        order: 1;
+        width: 688px;
+    }
+
+    .footer-info h4 {
+        padding: 20px 0;
+    }
+}
+
+@media all and (max-width: 1000px ) {
+    .container {
+        width: 750px;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .logo-adapt {
+        display: block;
+    }
+
+    .logo-adapt img {
+        width: 156px;
+    }
+
+    h1 {
+        font-size: 32px;
+        background: url(img/G.svg) no-repeat 340px 20px;
+        background-size: 200px;
+        margin-top: 20px;
+    }
+
+    .block-1 .container h3 {
+        padding: 0;
+    }
+
+    .block-2 ul {
+        padding: 0 30px;
+    }
+
+    .block-2 .container ul li {
+        background-size: 60px;
+        padding: 110px 20px 75px;
+    }
+
+    .block-2 ul li p {
+        width: 290px;
+
+    }
+
+
+    .partners ul li img {
+        width: 150px;
+    }
+    .block-3 h2{
+        padding-top: 60px;
+        font-size: 32px;
+    }
+    .partners li{
+        margin-bottom: 20px;
+    }
+    .block-4 h2{
+        font-size: 24px;
+    }
+    .block-5 h2{
+        font-size: 32px;
+        padding-top: 60px;
+    }
+
+
+    .social {
+        padding: 20px 0 0 0;
+    }
+
+    .footer-contacts {
+        width: 334px;
+    }
+
+    .footer p {
+        font-size: 16px;
+    }
+
+    .info-for-our {
+        width: 398px;
+    }
+
+    .footer-programms {
+        width: 220px;
+    }
+}
+
+@media all and (max-width: 750px ) {
+    .container {
+        width: 320px;
+    }
+
+    h1 {
+        background: url(img/G.svg) no-repeat 120px 20px;
+        background-size: 200px;
+    }
+    .block-2 ul{
+        justify-content: center;
+    }
+    .block-4{
+        margin-top: 60px;
+    }
+
+}
+
+@media all and (max-width: 500px ) {
+    .container {
+        width: 320px;
+    }
+    .block-2 ul{
+        padding: 0;
+    }
+    .block-2 .container ul li{
+        text-align: center;
+        background-position-x: 135px;
+    }
+
+
+    .footer {
+        padding: 0 0 0 10px;
+    }
+
+    .footer-menu {
+        order: 1;
+    }
+
+    .social {
+        padding: 100px 0 0 0;
+    }
+
+    .info-for-our {
+        width: 300px;
+    }
+}
+

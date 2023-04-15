@@ -3,11 +3,8 @@
         width: 1400px;
     }
 
-    .profile {
-       margin: 0;
-    }
-    .nastya-not-adapt img{
-        width: 750px;
+    h1 {
+        background: url(img/G.svg) no-repeat 550px 25px;
     }
 }
 
@@ -16,18 +13,44 @@
         width: 1000px;
     }
 
-    .nastya-not-adapt {
-        display: none;
+    h1 {
+        background: url(img/G.svg) no-repeat 350px 25px;
+    }
+    .block-1 p{
+        max-width: 700px;
     }
 
-    .nastya-adapt {
-        display: block;
-        margin-top: 15px;
-    }
-    .block-1{
-        margin-top: 40px;
+    .block-2 .container ul {
+        max-width: 700px;
     }
 
+    .block-2 h3 {
+        font-size: 18px;
+        max-width: 294px;
+    }
+
+    .block-2 p {
+        font-size: 16px;
+        padding-top: 30px;
+    }
+
+    .block-2 h4 {
+        font-size: 18px;
+    }
+
+    .block-2 .container ul li {
+        padding: 20px 0 30px 17px;
+        width: 334px;
+    }
+
+    .block-2 .container ul li button {
+        padding: 10px 28px;
+        font-size: 16px;
+    }
+
+    .separation {
+        padding: 20px 17px 0 0;
+    }
 
     .social {
         padding: 50px 0 0 0;
@@ -55,27 +78,23 @@
     .logo-adapt {
         display: block;
     }
-    h1{
+
+    .logo-adapt img {
+        width: 156px;
+    }
+
+    h1 {
         font-size: 32px;
-        padding: 16px 0;
+        background: url(img/G.svg) no-repeat 280px 18px;
+        background-size: 200px;
     }
-    .profile h3{
-        font-size: 16px;
-        padding-bottom: 19px;
+    .block-3 h2{
+        font-size: 32px;
+        padding-top: 64px;
     }
-    .profile p{
-        font-size: 16px;
-        width: 333px;
+    .payment{
+        max-width: 680px;
     }
-
-
-
-
-
-
-
-
-
 
 
     .social {
@@ -103,12 +122,14 @@
     .container {
         width: 320px;
     }
-    .block-1 .container{
-        flex-wrap: wrap;
-        justify-content: center;
+    h1{
+        background: url(img/G.svg) no-repeat 65px 18px;
+        background-size: 200px;
+        margin-top: 20px;
     }
-    .profile{
-        order: 1;
+    .block-2 .container ul{
+        justify-content: center;
+        max-width: 320px;
     }
 }
 
@@ -116,8 +137,12 @@
     .container {
         width: 320px;
     }
-    .nastya-adapt img{
-        width: 331px;
+    .block-3 h2{
+        padding-top: 16px;
+        padding-bottom: 20px;
+    }
+    .block-3 h5{
+        padding-top: 20px;
     }
 
     .footer {
