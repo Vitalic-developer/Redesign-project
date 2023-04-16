@@ -1,13 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-weight: 600;
-    font-family: Montserrat;
-    box-sizing: border-box;
-}
-body{
-    overflow-x:hidden;
-}
 a{
     text-decoration: none;
     color: white;
@@ -16,6 +6,9 @@ p{
     color: #686887;
     font-size: 18px;
     font-weight: 500;
+}
+h1{
+    color: white;
 }
 h2{
     font-size: 60px;
@@ -44,12 +37,12 @@ ul li{
     display: none;
 }
 .block-backgorund-1{
-   background: url("1page-header.jpg")no-repeat 5px -5px;
+    background: url("../../img/1page-header.jpg")no-repeat 5px -5px;
     width: 100%;
     background-size: contain;
 }
 .block-backgorund-2{
-    background: url("block-background-2.jpg") no-repeat -82px -400px;
+    background: url("../../img/block-background-2.jpg") no-repeat -82px -400px;
 }
 .block-1{
     color: #FFFFFF;
@@ -93,7 +86,7 @@ h1 {
     text-align: center;
     padding: 0 330px;
     font-size: 60px;
-    background: url(G.svg) no-repeat 800px 0;
+    background: url(img/G.svg) no-repeat 800px 0;
     margin: 160px 0 0 0;
     background-size: 400px;
 }
@@ -142,9 +135,6 @@ h1 {
 .our-programm{
     display: flex;
     justify-content: space-between;
-}
-.our-programm-1{
-    width: 354px;
 }
 .block-3{
     margin: 97px 0 0 0;
@@ -333,7 +323,7 @@ form button{
 }
 .block-7 h2{
     margin-top: 145px;
-    background: url("G.svg")no-repeat 730px 0;
+    background: url("../../img/G.svg")no-repeat 730px 0;
     background-size: 340px;
 }
 .block-7 ul{
@@ -354,27 +344,27 @@ form button{
     padding-top: 100px;
 }
 .block-7 ul li:nth-child(1){
-    background: url("star.svg") no-repeat;
+    background: url("../../img/star.svg") no-repeat;
 }
 .block-7 ul li:nth-child(2){
-    background: url("cap.svg") no-repeat;
+    background: url("../../img/cap.svg") no-repeat;
 }
 .block-7 ul li:nth-child(3){
-    background: url("book.svg") no-repeat;
+    background: url("../../img/book.svg") no-repeat;
 }
 
 
 .block-7 ul li:nth-child(4){
-    background: url("calendar.svg") no-repeat;
+    background: url("../../img/calendar.svg") no-repeat;
 }
 .block-7 ul li:nth-child(5){
-    background: url("social.svg") no-repeat;
+    background: url("../../img/social.svg") no-repeat;
 }
 .block-7 ul li:nth-child(6){
-    background: url("devices.svg") no-repeat;
+    background: url("../../img/devices.svg") no-repeat;
 }
 .block-7 ul li:nth-child(7){
-    background: url(bulb.svg) no-repeat;
+    background: url(../../img/bulb.svg) no-repeat;
 }
 .block-7 ul li:nth-child(8){
     width: 540px;
@@ -392,7 +382,7 @@ form button{
 .block-8 h2{
     font-size: 42px;
     padding: 20px 0;
-    background: url("check.svg")no-repeat 400px 10px;
+    background: url("../../img/check.svg")no-repeat 400px 10px;
 }
 .block-8 p{
     text-align: center;

@@ -1,34 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    font-weight: 600;
-}
-
-body {
-    overflow-x: hidden;
-    font-family: Montserrat, sans-serif;
-    overflow-x: hidden;
-}
-
-a {
-    text-decoration: none;
-}
-
-.container {
-    width: 1680px;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
-li {
-    list-style-type: none;
-}
 
 .block-backgorund-1 {
-    background: url("header-background.jpg") no-repeat 240px -15px;
-    width: 1980px;
+    background: url("../../img/header-background.jpg") no-repeat 240px -15px;
     margin: 0 auto;
+}
+.logo-adapt{
+    display: none;
 }
 
 .header .container {
@@ -64,55 +40,62 @@ li {
 
 h1 {
     text-align: center;
-    padding: 20px 250px 20px;
+    padding: 20px 0 20px;
     font-size: 60px;
-    background: url(G.svg) no-repeat 680px 17px;
+    background: url(../../img/G.svg) no-repeat 680px 17px;
     margin: 70px 0 0 0;
     color: #2b2c54;
     background-size: 340px;
 }
 
-.block-1 p{
+.block-1 p {
     color: #2B2C54;
     opacity: 70%;
-    width: 1110px;
     margin: 0 auto;
     line-height: 30px;
-    padding: 0 0 0 120px;
+    max-width: 1050px;
 }
-.block-2{
+
+.block-2 {
     margin: 50px 0 0 0;
 }
-.block-2 h3{
+
+.block-2 h3 {
     font-size: 32px;
     padding-bottom: 16px;
 }
-.block-2 h4{
+
+.block-2 h4 {
     font-size: 24px;
     padding-top: 10px;
 }
-.block-2 p{
+
+.block-2 p {
     padding-top: 62px;
     opacity: 70%;
     font-size: 18px;
 }
-.block-2 .container ul{
+
+.block-2 .container ul {
     display: flex;
     justify-content: space-between;
-    width: 1110px;
+    flex-wrap: wrap;
+    max-width: 1050px;
     margin: 0 auto;
 }
-.block-2 .container ul li{
+
+.block-2 .container ul li {
     padding: 30px 0 35px 30px;
     width: 510px;
     background: #FFFFFF;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1), 0 1px 15px rgba(248,248,249);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 1px 15px rgba(248, 248, 249);
 
     color: #2B2C54;
     margin-bottom: 30px;
 
 }
-.block-2 .container ul li button{
+
+.block-2 .container ul li button {
     background: #FFFFFF;
     font-size: 20px;
     padding: 12px 42px 12px 42px;
@@ -126,45 +109,53 @@ h1 {
     letter-spacing: 1px;
     margin-top: 20px;
 }
-.separation{
+
+.separation {
     display: flex;
     justify-content: space-between;
     padding: 20px 30px 0 0;
 }
-.block-3{
+
+.block-3 {
     color: #2B2C54;
 }
-.block-3 h2{
+
+.block-3 h2 {
     font-size: 60px;
     text-align: center;
     padding-top: 74px;
     padding-bottom: 30px;
 }
-.block-3 h4{
+
+.block-3 h4 {
     text-align: center;
     font-size: 16px;
 }
-.block-3 h5{
+
+.block-3 h5 {
     padding-top: 50px;
     opacity: 70%;
     font-size: 16px;
 }
-.payment{
-    width: 1110px;
+
+.payment {
+    max-width: 1110px;
     margin: 0 auto;
 }
-.block-3 ul{
+
+.block-3 ul {
     padding-top: 30px;
 }
-.block-3 ul li{
+
+.block-3 ul li {
     opacity: 70%;
     font-size: 18px;
     font-weight: 400;
     padding-bottom: 20px;
     color: #2B2C54;
 }
-.payment p{
-    width: 968px;
+
+.payment p {
     color: #2B2C54;
     opacity: 70%;
     padding-top: 16px;
@@ -173,31 +164,30 @@ h1 {
 }
 
 
-
-
-
-
-
-
-
-
-
-.footer {
-    background: url("footer.png") no-repeat;
-    background-size: cover;
-    margin: 63px 0 0 0;
-    padding: 0 0 120px 0;
-}
-
 .social {
     display: flex;
     justify-content: right;
     align-items: center;
-    padding: 165px 175px 0 0;
 }
 
 .social li {
-    padding: 0 10px;
+    padding: 0 5px;
+}
+
+.footer {
+    background: #595ba9;
+    padding: 85px 0 110px 0;
+    margin-top: 60px;
+}
+
+.footer h5 {
+    color: white;
+}
+
+.footer p {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .footer-info {
@@ -205,21 +195,30 @@ h1 {
     font-size: 18px;
     display: flex;
     justify-content: space-between;
-    margin: 23px 0 0 0;
+    flex-wrap: wrap;
+    margin: 60px 20px 0 20px;
 }
 
 .footer-info p {
     padding: 0 0 20px 0;
+    font-weight: 400;
 }
 
 .footer-info h4 {
     color: white;
-    padding: 40px 0 30px 0;
+    padding: 0 0 30px 0;
 }
 
 .info-for-our {
     width: 428px;
 }
+
+.footer img {
+    vertical-align: bottom;
+    padding: 0 10px 0 0;
+}
+
+
 
 
 

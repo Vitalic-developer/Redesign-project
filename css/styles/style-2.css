@@ -1,25 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-weight: 600;
-    box-sizing: border-box;
-}
-body{
-    overflow-x: hidden;
-    font-family: Montserrat;
 
-}
-a{
-    text-decoration: none;
-}
-.container{
-    width: 1680px;
-    margin: 0 auto;
-
-}
-ul li{
-    list-style-type: none;
-}
 .logo-adapt{
     display: none;
 }
@@ -54,7 +33,7 @@ h1 {
     text-align: center;
     padding: 20px 250px 20px;
     font-size: 60px;
-    background: url(G.svg) no-repeat 395px 10px;
+    background: url(../../img/G.svg) no-repeat 395px 10px;
     margin: 70px 0 0 0;
     color: #2b2c54;
     background-size: 480px;
@@ -72,25 +51,28 @@ h1 {
 .block-1 ul li p{
     padding: 18px 240px 10px 0;
     line-height: 30px;
+    color: white;
 }
 .block-1 h3{
     font-size: 42px;
     padding-top: 10px;
+    color: white;
 }
 .block-1 h5{
     font-size: 18px;
+    color: white;
 }
 .block-1{
     color: white;
 }
 .block-1 ul li:nth-child(1){
-    background: url("forKids 1.jpg") no-repeat;
+    background: url("../../img/forKids 1.jpg") no-repeat;
 }
 .block-1 ul li:nth-child(2){
-    background: url("forKids 2.jpg") no-repeat;
+    background: url("../../img/forKids 2.jpg") no-repeat;
 }
 .block-1 ul li:nth-child(3){
-    background: url("forKids 3.jpg") no-repeat;
+    background: url("../../img/forKids 3.jpg") no-repeat;
 }
 .block-1 ul li button{
     background: #a38ef6;
@@ -113,7 +95,7 @@ h1 {
     text-align: center;
     padding: 25px 250px 25px;
     font-size: 60px;
-    background: url(G.svg) no-repeat 825px 10px;
+    background: url(../../img/G.svg) no-repeat 825px 10px;
     margin: 70px 0 0 0;
     color: #2b2c54;
     background-size: 480px;
@@ -135,21 +117,23 @@ h1 {
 
 }
 .block-2 ul li:nth-child(1){
-    background: url("forJun 1.jpg") no-repeat;
+    background: url("../../img/forJun 1.jpg") no-repeat;
     background-size: cover;
     margin: 50px 15px 0 0;
 }
 .block-2 ul li:nth-child(2){
-    background: url("forJun 2.jpg") no-repeat;
+    background: url("../../img/forJun 2.jpg") no-repeat;
     background-size: cover;
     margin: 50px 0 0 15px;
 }
 .block-2 h5 {
     font-size: 18px;
+    color: white;
 }
 .block-2 h3 {
     font-size: 42px;
     padding: 12px 0 12px 0;
+    color: white;
 }
 .block-2 ul li p {
     padding-top: 10px;
@@ -253,7 +237,7 @@ h1 {
     color: #2b2c54;
     font-weight: 600;
     margin-top: 115px;
-    background: url(G.svg)no-repeat 750px 25px;
+    background: url(../../img/G.svg)no-repeat 750px 25px;
     padding: 20px 0;
 }
 .block-5 ul{
@@ -274,27 +258,27 @@ h1 {
     padding-top: 100px;
 }
 .block-5 ul li:nth-child(1){
-    background: url("star.svg") no-repeat;
+    background: url("../../img/star.svg") no-repeat;
 }
 .block-5 ul li:nth-child(2){
-    background: url("cap.svg") no-repeat;
+    background: url("../../img/cap.svg") no-repeat;
 }
 .block-5 ul li:nth-child(3){
-    background: url("book.svg") no-repeat;
+    background: url("../../img/book.svg") no-repeat;
 }
 
 
 .block-5 ul li:nth-child(4){
-    background: url("calendar.svg") no-repeat;
+    background: url("../../img/calendar.svg") no-repeat;
 }
 .block-5 ul li:nth-child(5){
-    background: url("social.svg") no-repeat;
+    background: url("../../img/social.svg") no-repeat;
 }
 .block-5 ul li:nth-child(6){
-    background: url("devices.svg") no-repeat;
+    background: url("../../img/devices.svg") no-repeat;
 }
 .block-5 ul li:nth-child(7){
-    background: url(bulb.svg) no-repeat;
+    background: url("../../img/bulb.svg") no-repeat;
 }
 .block-5 ul li:nth-child(8){
     width: 540px;
@@ -356,6 +340,9 @@ h1 {
 .footer{
     background: #595ba9;
     padding: 85px 0 110px 0;
+}
+.footer h5{
+    color: white;
 }
 .footer p{
     color: #FFFFFF;

@@ -3,29 +3,23 @@
         width: 1400px;
     }
 
-    .profile {
-       margin: 0;
+    h1 {
+        text-align: center;
+        background: url(../../img/G.svg) no-repeat 190px 10px;
     }
-    .nastya-not-adapt img{
-        width: 750px;
+
+    #map {
+        order: 1;
+    }
+
+    .block-1 .container {
+        justify-content: center;
     }
 }
 
 @media all and (max-width: 1400px ) {
     .container {
         width: 1000px;
-    }
-
-    .nastya-not-adapt {
-        display: none;
-    }
-
-    .nastya-adapt {
-        display: block;
-        margin-top: 15px;
-    }
-    .block-1{
-        margin-top: 40px;
     }
 
 
@@ -55,27 +49,15 @@
     .logo-adapt {
         display: block;
     }
-    h1{
+    .logo-adapt img{
+        width: 156px;
+    }
+
+    h1 {
+        background: url(../../img/G.svg) no-repeat 240px 0px;
         font-size: 32px;
-        padding: 16px 0;
+        background-size: 200px;
     }
-    .profile h3{
-        font-size: 16px;
-        padding-bottom: 19px;
-    }
-    .profile p{
-        font-size: 16px;
-        width: 333px;
-    }
-
-
-
-
-
-
-
-
-
 
 
     .social {
@@ -103,22 +85,32 @@
     .container {
         width: 320px;
     }
-    .block-1 .container{
-        flex-wrap: wrap;
-        justify-content: center;
+    h1 {
+        background: url(../../img/G.svg) no-repeat 60px 0;
+        background-size: 200px;
     }
-    .profile{
-        order: 1;
+
+    #map {
+        display: none;
     }
+
+    .contact ul {
+        width: 315px;
+    }
+
 }
 
 @media all and (max-width: 500px ) {
     .container {
         width: 320px;
     }
-    .nastya-adapt img{
-        width: 331px;
+
+
+
+    .contact ul {
+        margin-left: 20px;
     }
+
 
     .footer {
         padding: 0 0 0 10px;

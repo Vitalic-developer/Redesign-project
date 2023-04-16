@@ -1,28 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    font-weight: 600;
-}
-
-body {
-    overflow-x: hidden;
-    font-family: Montserrat, sans-serif;
-}
-
-a {
-    text-decoration: none;
-}
-
-.container {
-    width: 1680px;
-    margin: 0 auto;
-    overflow: hidden;
-}
 .block-results{
-    width: 1110px;
+    max-width: 1106px;
     margin: 0 auto;
     padding-top: 60px;
+}
+.santa{
+
 }
 h3{
     color: #686887;
@@ -39,8 +21,7 @@ li {
 }
 
 .block-backgorund-1 {
-    background: url("header-background.jpg") no-repeat 240px -15px;
-    width: 1980px;
+    background: url("img/header-background.jpg") no-repeat 240px -15px;
 }
 
 .header .container {
@@ -73,12 +54,18 @@ li {
 .header button img {
     margin-bottom: -3px;
 }
+.logo-adapt{
+    display: none;
+}
 
 h1 {
-    padding: 20px 0 45px;
     font-size: 60px;
     color: #2b2c54;
     background-size: 340px;
+    max-width: 1106px;
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 30px;
 }
 .santa img{
     padding-bottom: 55px;
@@ -101,32 +88,30 @@ h1 {
 
 
 
-
-
-
-
-
-
-
-
-.footer {
-    background: url("footer.png") no-repeat;
-    background-size: cover;
-    margin: 55px 0 0 0;
-    padding: 0 0 120px 0;
-}
-.footer p{
-    color: white;
-}
 .social {
     display: flex;
     justify-content: right;
     align-items: center;
-    padding: 165px 175px 0 0;
 }
 
 .social li {
-    padding: 0 10px;
+    padding: 0 5px;
+}
+
+.footer {
+    background: #595ba9;
+    padding: 85px 0 110px 0;
+    margin-top: 60px;
+}
+
+.footer h5 {
+    color: white;
+}
+
+.footer p {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .footer-info {
@@ -134,26 +119,31 @@ h1 {
     font-size: 18px;
     display: flex;
     justify-content: space-between;
-    margin: 23px 0 0 0;
+    flex-wrap: wrap;
+    margin: 60px 20px 0 20px;
 }
 
 .footer-info p {
     padding: 0 0 20px 0;
+    font-weight: 400;
 }
 
 .footer-info h4 {
     color: white;
-    padding: 40px 0 30px 0;
+    padding: 0 0 30px 0;
 }
 
 .info-for-our {
     width: 428px;
 }
-.text h4{
-    color: #6b6b87;
-    opacity: 80%;
-    font-size: 16px;
+
+.footer img {
+    vertical-align: bottom;
+    padding: 0 10px 0 0;
 }
+
+
+
 
 
 

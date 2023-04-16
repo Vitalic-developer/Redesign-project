@@ -103,6 +103,12 @@
     .container {
         width: 320px;
     }
+    .santa p {
+        padding-top: 0;
+    }
+    .santa-2, .santa-3 {
+        margin-top: 40px;
+    }
 
     .footer {
         padding: 0 0 0 10px;
@@ -119,12 +125,7 @@
     .info-for-our {
         width: 300px;
     }
-    .santa p {
-        padding-top: 0;
-    }
-    .santa-2, .santa-3 {
-        margin-top: 40px;
-    }
+
 
 }
 

@@ -36,7 +36,7 @@
 h1 {
     padding: 20px 0 45px;
     font-size: 60px;
-    background: url("circle.svg") no-repeat 700px 15px;
+    background: url("../../img/circle.svg") no-repeat 700px 15px;
     background-size: 270px;
 }
 
@@ -61,35 +61,35 @@ h1 {
 }
 
 .blog li:nth-child(1) {
-    background: url("blog-img-1.jpg") no-repeat 0 312px;
+    background: url("../../img/blog img/blog-img-1.jpg") no-repeat 0 312px;
 }
 
 .blog li:nth-child(2) {
-    background: url("blog-img-2.jpg") no-repeat 0 312px;
+    background: url("../../img/blog img/blog-img-2.jpg") no-repeat 0 312px;
 }
 
 .blog li:nth-child(3) {
-    background: url("blog-img-3.jpg") no-repeat 0 312px;
+    background: url("../../img/blog img/blog-img-3.jpg") no-repeat 0 312px;
 }
 
 .blog li:nth-child(4) {
-    background: url("blog-img-4.jpg") no-repeat 0 312px;
+    background: url("../../img/blog img/blog-img-4.jpg") no-repeat 0 312px;
 }
 
 .blog li:nth-child(5) {
-    background: url("blog-img-1.jpg") no-repeat 0 312px;
+    background: url("../../img/blog img/blog-img-1.jpg") no-repeat 0 312px;
 }
 
 .blog li:nth-child(6) {
-    background: url("blog-img-2.jpg") no-repeat 0 312px;
+    background: url("../../img/blog img/blog-img-2.jpg") no-repeat 0 312px;
 }
 
 .blog li:nth-child(7) {
-    background: url("blog-img-3.jpg") no-repeat 0 312px;
+    background: url("../../img/blog img/blog-img-3.jpg") no-repeat 0 312px;
 }
 
 .blog li:nth-child(8) {
-    background: url("blog-img-4.jpg") no-repeat 0 312px;
+    background: url("../../img/blog img/blog-img-4.jpg") no-repeat 0 312px;
 }
 
 

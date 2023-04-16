@@ -3,7 +3,7 @@
         width: 1400px;
     }
     h1{
-        background: url(img/G.svg) no-repeat 550px 24px;
+        background: url(../../img/G.svg) no-repeat 550px 24px;
     }
     .admission{
         max-width: 1050px;
@@ -27,7 +27,7 @@
         width: 1000px;
     }
     h1{
-        background: url(img/G.svg) no-repeat 350px 24px;
+        background: url(../../img/G.svg) no-repeat 350px 24px;
     }
     .admission-text p{
         max-width: 370px;
@@ -93,7 +93,7 @@
     }
     h1{
         font-size: 32px;
-        background: url(img/G.svg) no-repeat 275px 18px;
+        background: url(../../img/G.svg) no-repeat 275px 18px;
         background-size: 200px;
         margin-top: 40px;
     }
@@ -154,7 +154,7 @@
         width: 320px;
     }
     h1{
-        background: url(img/G.svg) no-repeat 60px 18px;
+        background: url(../../img/G.svg) no-repeat 60px 18px;
         background-size: 200px;
     }
     .block-1 h3{

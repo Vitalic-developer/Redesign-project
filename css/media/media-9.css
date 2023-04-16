@@ -4,7 +4,7 @@
     }
 
     h1 {
-        background: url(img/G.svg) no-repeat 650px 20px;
+        background: url(../../img/G.svg) no-repeat 650px 20px;
         background-size: 340px;
     }
 
@@ -21,7 +21,7 @@
     }
 
     h1 {
-        background: url(img/G.svg) no-repeat 450px 20px;
+        background: url(../../img/G.svg) no-repeat 450px 20px;
         background-size: 340px;
     }
 
@@ -67,7 +67,7 @@
 
     h1 {
         font-size: 32px;
-        background: url(img/G.svg) no-repeat 340px 20px;
+        background: url(../../img/G.svg) no-repeat 340px 20px;
         background-size: 200px;
         margin-top: 20px;
     }
@@ -137,7 +137,7 @@
     }
 
     h1 {
-        background: url(img/G.svg) no-repeat 120px 20px;
+        background: url(../../img/G.svg) no-repeat 120px 20px;
         background-size: 200px;
     }
     .block-2 ul{

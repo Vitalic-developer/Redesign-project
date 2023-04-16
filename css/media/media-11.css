@@ -2,11 +2,44 @@
     .container {
         width: 1400px;
     }
+
+    .profile {
+       margin: 0;
+    }
+    .nastya-not-adapt img{
+        width: 750px;
+    }
 }
 
 @media all and (max-width: 1400px ) {
     .container {
         width: 1000px;
+    }
+
+    .nastya-not-adapt {
+        display: none;
+    }
+
+    .nastya-adapt {
+        display: block;
+        margin-top: 15px;
+    }
+    .block-1{
+        margin-top: 40px;
+    }
+
+
+    .social {
+        padding: 50px 0 0 0;
+    }
+
+    .footer-programms {
+        order: 1;
+        width: 688px;
+    }
+
+    .footer-info h4 {
+        padding: 20px 0;
     }
 }
 
@@ -14,17 +47,93 @@
     .container {
         width: 750px;
     }
+
+    .header {
+        display: none;
+    }
+
+    .logo-adapt {
+        display: block;
+    }
+    h1{
+        font-size: 32px;
+        padding: 16px 0;
+    }
+    .profile h3{
+        font-size: 16px;
+        padding-bottom: 19px;
+    }
+    .profile p{
+        font-size: 16px;
+        width: 333px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .social {
+        padding: 20px 0 0 0;
+    }
+
+    .footer-contacts {
+        width: 334px;
+    }
+
+    .footer p {
+        font-size: 16px;
+    }
+
+    .info-for-our {
+        width: 398px;
+    }
+
+    .footer-programms {
+        width: 220px;
+    }
 }
 
 @media all and (max-width: 750px ) {
     .container {
-        width: 500px;
+        width: 320px;
+    }
+    .block-1 .container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .profile{
+        order: 1;
     }
 }
 
 @media all and (max-width: 500px ) {
     .container {
         width: 320px;
+    }
+    .nastya-adapt img{
+        width: 331px;
+    }
+
+    .footer {
+        padding: 0 0 0 10px;
+    }
+
+    .footer-menu {
+        order: 1;
+    }
+
+    .social {
+        padding: 100px 0 0 0;
+    }
+
+    .info-for-our {
+        width: 300px;
     }
 }
 

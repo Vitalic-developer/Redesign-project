@@ -13,7 +13,7 @@
     .error{
         max-width: 614px;
         height: 378px;
-        background: url("img/404.jpg")no-repeat;
+        background: url("../../img/404.jpg")no-repeat;
         background-size: contain;
     }
     .oops{
