@@ -46,7 +46,7 @@
         font-size: 32px;
     }
     .table{
-        display: none;
+        overflow-x: scroll;
     }
     .block-5 .container {
         max-width: 930px;
@@ -67,6 +67,11 @@
     .footer-programms {
         order: 1;
         width: 688px;
+    }
+
+    .footer-info {
+        flex-wrap: wrap;
+        margin: 60px 0 0;
     }
 
     .footer-info h4 {
@@ -136,6 +141,7 @@
         width: 334px;
     }
 
+
     .footer p {
         font-size: 16px;
     }
@@ -146,6 +152,10 @@
 
     .footer-programms {
         width: 220px;
+    }
+
+    .footer-info div {
+        width: 290px;
     }
 }
 
@@ -187,6 +197,13 @@
     .block-5 .container .preparation button {
         margin-bottom: 30px;
     }
+    .footer-menu {
+        order: 1;
+    }
+
+    .footer-info {
+        justify-content: center;
+    }
 }
 
 @media all and (max-width: 500px ) {
@@ -209,10 +226,6 @@
 
     .footer {
         padding: 0 0 0 10px;
-    }
-
-    .footer-menu {
-        order: 1;
     }
 
     .social {

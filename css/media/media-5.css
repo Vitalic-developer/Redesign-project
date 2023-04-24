@@ -1,3 +1,217 @@
-@media all and (max-width: 1200px){.container{width:1000px}}
+@media all and (max-width: 1660px ) {
+    .container {
+        width: 1400px;
+    }
+    h1{
+        background: url(../../img/G.svg) no-repeat 880px 25px;
+    }
+    .admission-text {
+        padding: 105px 70px 0 0;
+    }
+}
 
-/*# sourceMappingURL=media-5.css.map */
+@media all and (max-width: 1400px ) {
+    .container {
+        width: 1000px;
+    }
+    h1 {
+        background: url(../../img/G.svg) no-repeat 670px 25px;
+    }
+    .admission img{
+        width: 500px;
+    }
+    .admission-text {
+        padding: 35px 0 0;
+    }
+    .video-player video{
+        width: 800px;
+        height: auto;
+    }
+
+
+
+
+
+    .block-3 .container {
+        max-width: 930px;
+    }
+    .block-3 .container .preparation{
+        margin-top: 50px;
+    }
+    .art img{
+        width: 450px;
+        margin-top: 25px;
+    }
+
+
+    .social {
+        padding: 50px 0 0 0;
+    }
+
+    .footer-programms {
+        order: 1;
+        width: 688px;
+    }
+
+    .footer-info {
+        flex-wrap: wrap;
+        margin: 60px 0 0;
+    }
+
+    .footer-info h4 {
+        padding: 20px 0;
+    }
+}
+
+@media all and (max-width: 1000px ) {
+    .container {
+        width: 750px;
+    }
+    .header{
+        display: none;
+    }
+    .logo-adapt{
+        display: block;
+    }
+    .logo-adapt img{
+        width: 156px;
+    }
+    h1{
+        font-size: 32px;
+        background: url(../../img/G.svg) no-repeat 450px 25px;
+        background-size: 170px;
+    }
+    .people-not-adapt{
+        display: none;
+    }
+    .people-adapt{
+        display: block;
+    }
+    .admission img{
+        margin-right: 22px;
+        width: 350px;
+    }
+    .admission-text{
+        padding: 0;
+    }
+    .preparation h2{
+        font-size: 32px;
+    }
+    .block-3 .container {
+        max-width: 650px;
+    }
+    .art{
+        display: none;
+    }
+    .art-adapt{
+        display: block;
+    }
+    .video-player video{
+        width: 688px;
+        height: auto;
+    }
+    .block-2{
+        margin-top: 65px;
+    }
+    .block-2 h2{
+        font-size: 32px;
+    }
+
+
+
+
+
+
+    .social {
+        padding: 20px 0 0 0;
+    }
+
+    .footer-contacts {
+        width: 334px;
+    }
+
+
+    .footer p {
+        font-size: 16px;
+    }
+
+    .info-for-our {
+        width: 398px;
+    }
+
+    .footer-programms {
+        width: 220px;
+    }
+
+    .footer-info div {
+        width: 290px;
+    }
+}
+
+@media all and (max-width: 750px ) {
+    .container {
+        width: 320px;
+    }
+    .admission{
+        flex-wrap: wrap;
+    }
+    .admission img {
+        margin-right: 0px;
+        width: 350px;
+    }
+    .people-adapt{
+        order: 1;
+    }
+    .admission img{
+        margin-right: 0;
+        margin-left: -10px;
+        width: 345px;
+    }
+    .video-player video{
+        width: 328px;
+        height: auto;
+    }
+    .block-2{
+        margin-top: 40px;
+    }
+
+
+
+
+    .block-3 .container{
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 320px;
+    }
+    .block-3 .container .preparation button {
+        margin-bottom: 30px;
+    }
+    .footer-menu {
+        order: 1;
+    }
+
+    .footer-info {
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 500px ) {
+    .container {
+        width: 320px;
+    }
+
+
+
+    .footer {
+        padding: 0 0 0 10px;
+    }
+
+    .social {
+        padding: 100px 0 0 0;
+    }
+
+    .info-for-our {
+        width: 300px;
+    }
+}
+

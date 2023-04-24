@@ -127,7 +127,6 @@ h1 {
     margin: 20px 0 0 0;
 }
 
-
 .social {
     display: flex;
     justify-content: right;
@@ -159,8 +158,11 @@ h1 {
     font-size: 18px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 60px 20px 0 20px;
+    margin: 60px 20px 0;
+}
+.footer-info div{
+    width: 380px;
+    margin: 0 10px;
 }
 
 .footer-info p {
@@ -173,14 +175,13 @@ h1 {
     padding: 0 0 30px 0;
 }
 
-.info-for-our {
-    width: 428px;
-}
+
 
 .footer img {
     vertical-align: bottom;
     padding: 0 10px 0 0;
 }
+
 
 
 

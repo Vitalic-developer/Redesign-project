@@ -146,18 +146,26 @@
         font-size: 24px;
         padding: 57px 250px 0;
     }
-    form button{
+
+    form button {
         padding: 14px 30px;
         font-size: 16px;
     }
-    .social{
+
+    .social {
         padding: 50px 0 0 0;
     }
-    .footer-programms{
+
+    .footer-programms {
         order: 1;
-        width: 245px;
+        width: 688px;
     }
-    .footer-info h4{
+    .footer-info{
+        flex-wrap: wrap;
+        margin: 60px 0 0;
+    }
+
+    .footer-info h4 {
         padding: 20px 0;
     }
 }
@@ -268,157 +276,173 @@
     .block-7 h2 {
         padding: 57px 120px 0;
     }
-    .social{
+
+    .social {
         padding: 20px 0 0 0;
     }
-    .footer-contacts{
+
+    .footer-contacts {
         width: 334px;
     }
-    .footer p{
+
+
+    .footer p {
         font-size: 16px;
     }
+
     .info-for-our {
         width: 398px;
     }
-    .footer-programms{
+
+    .footer-programms {
         width: 220px;
     }
-
-
-    @media all and (max-width: 750px) {
-        .container {
-            width: 500px;
-        }
-
-        h1 {
-            background: url(../../img/G.svg) no-repeat 60px 60px;
-            background-size: 230px;
-            padding: 70px 10px 20px;
-        }
-
-        .block-1 h2 {
-            padding: 0 30px;
-        }
-
-        .study-start {
-            justify-content: space-around;
-        }
-
-        .study-start img {
-            margin-left: 0;
-            order: 1;
-            margin-top: 16px;
-        }
-
-        .study-start ul {
-            text-align: center;
-            margin-left: 0;
-            margin-top: 20px;
-        }
-
-        .block-2 h2 {
-            padding-bottom: 84px;
-            background: url(../../img/karakul.svg) no-repeat 130px 80px;
-            background-size: 250px;
-        }
-
-        .block-2 ul {
-            text-align: center;
-            justify-content: center;
-            margin-left: -15px;
-        }
-
-        .block-2 ul li:nth-child(1) {
-            background: url("img/star.svg") no-repeat 100px 0;
-        }
-
-        .block-2 ul li:nth-child(2) {
-            background: url("img/cap.svg") no-repeat 100px 0;
-        }
-
-        .block-2 ul li:nth-child(3) {
-            background: url("img/bulb.svg") no-repeat 100px 0;
-        }
-
-        .block-2 ul li:nth-child(4) {
-            background: url("img/pan.svg") no-repeat 130px 0;
-        }
-
-        .block-3 {
-            margin-top: 60px;
-        }
-
-        .learn img {
-            margin-left: 90px;
-        }
-
-        .block-4 h2 {
-            background: url(../../img/circle.svg) no-repeat 50px 20px;
-            background-size: 190px;
-        }
-
-        .curator {
-            flex-wrap: wrap;
-        }
-
-        .curator p {
-            margin-top: 0;
-        }
-
-        .curator div img {
-            margin-left: 0;
-        }
-
-        .how-we-teach {
-            flex-wrap: wrap;
-        }
-
-        .how-we-teach div:first-child {
-            order: 1;
-        }
-
-        .how-we-teach div:last-child {
-            padding-top: 20px;
-            max-width: 330px;
-        }
-
-        .training-program {
-            max-width: 360px;
-        }
-
-        .training-program h2 {
-            text-align: left;
-        }
-
-        .training-program select {
-            max-width: 340px;
-
-        }
-
-        .certificate {
-            background: url(../../img/arrow-2.svg) no-repeat 180px 0;
-            background-size: 100px;
-        }
-
-        .certificate img {
-            width: 328px;
-        }
-
-        .certificate h2 {
-            margin-bottom: 18px;
-        }
-
-        .block-7 h2 {
-            padding: 57px 0 0;
-        }
-
-        .data input {
-            padding: 21px 140px 21px 20px;
-        }
+    .footer-info div{
+        width: 290px;
     }
 
-
 }
+
+@media all and (max-width: 750px) {
+    .container {
+        width: 500px;
+    }
+
+    h1 {
+        background: url(../../img/G.svg) no-repeat 60px 60px;
+        background-size: 230px;
+        padding: 70px 10px 20px;
+    }
+
+    .block-1 h2 {
+        padding: 0 30px;
+    }
+
+    .study-start {
+        justify-content: space-around;
+    }
+
+    .study-start img {
+        margin-left: 0;
+        order: 1;
+        margin-top: 16px;
+    }
+
+    .study-start ul {
+        text-align: center;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .block-2 h2 {
+        padding-bottom: 84px;
+        background: url(../../img/karakul.svg) no-repeat 130px 80px;
+        background-size: 250px;
+    }
+
+    .block-2 ul {
+        text-align: center;
+        justify-content: center;
+        margin-left: -15px;
+    }
+
+    .block-2 ul li:nth-child(1) {
+        background: url("img/star.svg") no-repeat 100px 0;
+    }
+
+    .block-2 ul li:nth-child(2) {
+        background: url("img/cap.svg") no-repeat 100px 0;
+    }
+
+    .block-2 ul li:nth-child(3) {
+        background: url("img/bulb.svg") no-repeat 100px 0;
+    }
+
+    .block-2 ul li:nth-child(4) {
+        background: url("img/pan.svg") no-repeat 130px 0;
+    }
+
+    .block-3 {
+        margin-top: 60px;
+    }
+
+    .learn img {
+        margin-left: 90px;
+    }
+
+    .block-4 h2 {
+        background: url(../../img/circle.svg) no-repeat 50px 20px;
+        background-size: 190px;
+    }
+
+    .curator {
+        flex-wrap: wrap;
+    }
+
+    .curator p {
+        margin-top: 0;
+    }
+
+    .curator div img {
+        margin-left: 0;
+    }
+
+    .how-we-teach {
+        flex-wrap: wrap;
+    }
+
+    .how-we-teach div:first-child {
+        order: 1;
+    }
+
+    .how-we-teach div:last-child {
+        padding-top: 20px;
+        max-width: 330px;
+    }
+
+    .training-program {
+        max-width: 360px;
+    }
+
+    .training-program h2 {
+        text-align: left;
+    }
+
+    .training-program select {
+        max-width: 340px;
+
+    }
+
+    .certificate {
+        background: url(../../img/arrow-2.svg) no-repeat 180px 0;
+        background-size: 100px;
+    }
+
+    .certificate img {
+        width: 328px;
+    }
+
+    .certificate h2 {
+        margin-bottom: 18px;
+    }
+
+    .block-7 h2 {
+        padding: 57px 0 0;
+    }
+
+    .data input {
+        padding: 21px 140px 21px 20px;
+    }
+    .footer-menu {
+        order: 1;
+    }
+    .footer-info{
+        justify-content: center;
+    }
+}
+
+
+
 
 @media all and (max-width: 500px) {
     .container {
@@ -470,19 +494,16 @@
     .block-6 .container {
         padding: 0 15px;
     }
-    .footer{
+
+    .footer {
         padding: 0 0 0 10px;
     }
-    .footer h5{
-        color: white;
-    }
-    .footer-menu{
-        order: 1;
-    }
+
     .social {
         padding: 100px 0 0 0;
     }
-    .info-for-our{
+
+    .info-for-our {
         width: 300px;
     }
 }

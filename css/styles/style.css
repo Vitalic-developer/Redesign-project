@@ -37,7 +37,7 @@ ul li{
     display: none;
 }
 .block-backgorund-1{
-    background: url("../../img/1page-header.jpg")no-repeat 5px -5px;
+    background: url("../../img/1page-header.jpg")no-repeat;
     width: 100%;
     background-size: contain;
 }
@@ -108,17 +108,19 @@ h1 {
 }
 .info-list{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     color: #777793;
-    margin: 80px 0 0 0;
+    max-width: 1530px;
+    margin: 80px auto 0;
     flex-wrap: wrap;
 }
 .info-list li{
     text-align: center;
-    padding: 30px 0px 30px 0px;
+    padding: 30px 50px;
     background: white;
     font-weight: 600;
     transition-duration: .3s;
+    width: 320px;
 }
 .info-list li p{
     width: 360px;
@@ -416,47 +418,62 @@ form button{
 .block-9{
     height: 620px;
 }
-.social{
+.social {
     display: flex;
     justify-content: right;
     align-items: center;
-    padding: 0 75px 0 0;
 }
-.social li{
-    padding: 0 10px;
+
+.social li {
+    padding: 0 5px;
 }
-.footer{
+
+.footer {
     background: #595ba9;
     padding: 85px 0 110px 0;
+    margin-top: 60px;
 }
-.footer p{
+
+.footer h5 {
+    color: white;
+}
+
+.footer p {
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 500;
 }
-.footer-info{
+
+.footer-info {
     color: white;
     font-size: 18px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 60px 0 0 0;
+    margin: 60px 20px 0;
 }
-.footer-info p{
+.footer-info div{
+    width: 380px;
+    margin: 0 10px;
+}
+
+.footer-info p {
     padding: 0 0 20px 0;
     font-weight: 400;
 }
-.footer-info h4{
+
+.footer-info h4 {
     color: white;
     padding: 0 0 30px 0;
 }
-.info-for-our{
-    width: 428px;
-}
-.footer img{
+
+
+
+.footer img {
     vertical-align: bottom;
     padding: 0 10px 0 0;
 }
+
+
 
 
 

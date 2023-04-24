@@ -16,7 +16,8 @@
     h1 {
         background: url(../../img/G.svg) no-repeat 350px 25px;
     }
-    .block-1 p{
+
+    .block-1 p {
         max-width: 700px;
     }
 
@@ -61,6 +62,11 @@
         width: 688px;
     }
 
+    .footer-info {
+        flex-wrap: wrap;
+        margin: 60px 0 0;
+    }
+
     .footer-info h4 {
         padding: 20px 0;
     }
@@ -88,11 +94,13 @@
         background: url(../../img/G.svg) no-repeat 280px 18px;
         background-size: 200px;
     }
-    .block-3 h2{
+
+    .block-3 h2 {
         font-size: 32px;
         padding-top: 64px;
     }
-    .payment{
+
+    .payment {
         max-width: 680px;
     }
 
@@ -105,6 +113,7 @@
         width: 334px;
     }
 
+
     .footer p {
         font-size: 16px;
     }
@@ -116,20 +125,34 @@
     .footer-programms {
         width: 220px;
     }
+
+    .footer-info div {
+        width: 290px;
+    }
 }
 
 @media all and (max-width: 750px ) {
     .container {
         width: 320px;
     }
-    h1{
+
+    h1 {
         background: url(../../img/G.svg) no-repeat 65px 18px;
         background-size: 200px;
         margin-top: 20px;
     }
-    .block-2 .container ul{
+
+    .block-2 .container ul {
         justify-content: center;
         max-width: 320px;
+    }
+
+    .footer-menu {
+        order: 1;
+    }
+
+    .footer-info {
+        justify-content: center;
     }
 }
 
@@ -137,20 +160,18 @@
     .container {
         width: 320px;
     }
-    .block-3 h2{
+
+    .block-3 h2 {
         padding-top: 16px;
         padding-bottom: 20px;
     }
-    .block-3 h5{
+
+    .block-3 h5 {
         padding-top: 20px;
     }
 
     .footer {
         padding: 0 0 0 10px;
-    }
-
-    .footer-menu {
-        order: 1;
     }
 
     .social {
